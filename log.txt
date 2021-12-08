@@ -1,0 +1,907 @@
+2021-11-11T18:48:46,111 Using pip 21.1.2 from C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip (python 3.7)
+2021-11-11T18:48:46,111 Non-user install because user site-packages disabled
+2021-11-11T18:48:46,118 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-ephem-wheel-cache-ddro981r
+2021-11-11T18:48:46,118 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-jd81t2p5
+2021-11-11T18:48:46,119 Initialized build tracking at C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-jd81t2p5
+2021-11-11T18:48:46,119 Created build tracker: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-jd81t2p5
+2021-11-11T18:48:46,119 Entered build tracker: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-jd81t2p5
+2021-11-11T18:48:46,123 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh
+2021-11-11T18:48:46,138 1 location(s) to search for versions of dlib:
+2021-11-11T18:48:46,138 * https://pypi.org/simple/dlib/
+2021-11-11T18:48:46,139 Fetching project page and analyzing links: https://pypi.org/simple/dlib/
+2021-11-11T18:48:46,139 Getting page https://pypi.org/simple/dlib/
+2021-11-11T18:48:46,140 Found index url https://pypi.org/simple
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp27-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/76/44/d5ea0c2cfbbce3c12841de8e29ba97e305c585b98c70f8e8f1cb69855f1f/dlib-18.17.100-cp27-none-win32.whl#sha256=23523a686049ff8b9a17f1e932e70c8c563ea77a2aecdc686db7632dd5742d35 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp27-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/8b/b5/0a1f8e3cc709b845b2fb5592e0576c6194bd735519c779e6a98bf3b0f5c4/dlib-18.17.100-cp27-none-win_amd64.whl#sha256=ca70fc1eaf74176e50fa0fc90565dd7be14b7552a3d616c026099a8b2574155c (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp34-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/9e/b7/5c53db22828707d629e1a94326e14e1bb703b975352e4de427695e9c5d00/dlib-18.17.100-cp34-none-win32.whl#sha256=118039c043b1efc2d9e8e1c4b055b972358951d7770f9b61af59c8690053303f (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp34-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/66/1f/e1259d07929742e9df98e33bf315f48618809185a8a56a69cc2fd75031a2/dlib-18.17.100-cp34-none-win_amd64.whl#sha256=951b58000285d9ca41b1110af26cb96148d5059dc215fed8ce1df14c978809a2 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp35-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/e5/41/0818d66f938601f000f28b97967ae6d9f33b43b8b96e092f1873f4a6860b/dlib-18.17.100-cp35-none-win32.whl#sha256=1acf5e51ef4e5af67cb2f2eda4df3eee772c7e476611803a96330886160e34a4 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp35-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/30/91/ffef19ef1dcbe36fa1fd3d1e01e7cf8177a9edd1a13f51877f8f4623c132/dlib-18.17.100-cp35-none-win_amd64.whl#sha256=31d06be6c398a85edfaf496ce43beadd0270193cf76855f4a23cba2e6691e7f7 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/2e/63/801499a0aa588ac29b3400477848caa43e6cbb76af3c1568fcd4b0c21cfd/dlib-18.17.100.zip#sha256=cf73a059caee158f1b1cb18c1a21020bea19311afc6dbacb2417b05ff4bf89d5 (from https://pypi.org/simple/dlib/), version: 18.17.100
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/98/04/a42d2b901f2c456f86f3c8ace36e3df64d21d7f368b1cac468489205e850/dlib-19.0.0.tar.gz#sha256=f12433b9202c0a6aa2e730fe9784f984082d439a0eee4cb57074b9c02cf596f4 (from https://pypi.org/simple/dlib/), version: 19.0.0
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/19/e8/737eae439647f953aa1afe2f25ee88ff3399eb3c936e809f63e197e14036/dlib-19.1.0-cp35-cp35m-win_amd64.whl#sha256=a59fcc5e87ff01365e6d0711c5e3ae7676d12b8777c7a3c367e869dc9f921013 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/24/e5/af6b0a964ff4b726146128ab4f9cd67293426357c7399effab8240d2b8be/dlib-19.1.0.tar.gz#sha256=4e7a38d823daf42675082d0341f039510562aba09ac7689aa56ceb53d7d9e7cb (from https://pypi.org/simple/dlib/), version: 19.1.0
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/33/e9/a93e58de8dc08c117c37be7598a850e9142dae3c6e385186956a35a621a5/dlib-19.3.1-cp35-cp35m-win_amd64.whl#sha256=e3b402628eca04575b69295c225180d703354ff468712e3252f1708bcc737499 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/f7/3b/0969f13461e6ad84db58a6885c00725a6d97ed8c16b78470d11cc5f1f5de/dlib-19.3.1.tar.gz#sha256=0f35259d9da0ed24e3aefb4ad475045d469ffbf6a256dfa26edf59bbd4ac8670 (from https://pypi.org/simple/dlib/), version: 19.3.1
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/38/18/92fc25855307bcf582a30034ae657fda205de4f29773323bb388e592f17c/dlib-19.4.0-cp35-cp35m-win_amd64.whl#sha256=67e7d86eedaef650788b058d9e086198ead583f5bb3041fd9a431ae50658e9f4 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/1d/76/0f91fde37a83a40cf27e6cabd900b975c2667c522a07ae38e31cda2fa486/dlib-19.4.0.tar.gz#sha256=c23c172dd42d7bf703392e2ba6414e986e8ff5e3be1f848f0f1d1733fc0895b8 (from https://pypi.org/simple/dlib/), version: 19.4.0
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/82/68/3c471ddd73afb1378eee507d765bf186e724e8bc81eb44501a99345d89c7/dlib-19.5.0.tar.gz#sha256=b5896c7a51992441eac605395e07f2b31548376cadc1f392d93f69c821e6552e (from https://pypi.org/simple/dlib/), version: 19.5.0
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/24/ea/81e4fc5b978277899b1c1a63ff358f1f645f9369e59d9b5d9cc1d57c007c/dlib-19.5.1-cp36-cp36m-win_amd64.whl#sha256=7739535b76eb40cbcf49ba98d894894d06ee0b6e8f18a25fef2ab302fd5401c7 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/47/0c/4cef6abe23eb20ebbc9d7be66a15da21f3997f49a48b415d30a14e5586f0/dlib-19.5.1.tar.gz#sha256=d2920ec5ad68a621da9da37a50664bb8bebb19510a83630d5d7c4808419c9c88 (from https://pypi.org/simple/dlib/), version: 19.5.1
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/5b/fa/65bad0783fe624f463ec3c46c0bc062d281ee33c032b3047d99ffcefc9f5/dlib-19.6.0-cp36-cp36m-win_amd64.whl#sha256=cf352921cf8ec79f3ff85868f70e6397bcbd41a265acbb410f00bf9342e28d19 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/3f/2f/2f433c62b56842fc1c3b7855269ca95a6d9757caaa47d6b20f93f13f45c3/dlib-19.6.0.tar.gz#sha256=97c0804a2a86bf8343729b74eea0b6f4985e048353c71eda6b62cb9e8cc5e1fe (from https://pypi.org/simple/dlib/), version: 19.6.0
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/3c/97/e8e15bb7288c77085c130f9495f4a884a80a5c9f4634392cdae0aa8f53fe/dlib-19.6.1-cp36-cp36m-win_amd64.whl#sha256=aaa195c7820c3b301f74e5a7322d45101b2667ca8ccd5fc3085fd340e7cd3b68 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/e2/b3/8f689f96b6f2b1f66b6d8d0f91d5b1eb69a7f6a202869e64b0ff6ef74a06/dlib-19.6.1.tar.gz#sha256=43c30681eed2bbccb17a33558f84075150dfe2483aa3bbd9e3b9472b9eb4e212 (from https://pypi.org/simple/dlib/), version: 19.6.1
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-win_amd64.whl#sha256=d71c78dce0f7614e05b92518cf4ad654af9e8bfc9e15dea6af3c4dbb306bcd09 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/e2/79/6aba1d2b3f9fbcf34d583188d8ff6818952ea875dceedf7c34a869637573/dlib-19.7.0.tar.gz#sha256=8728d820094f8df4a7c66fa5d8b4c944921ae79c56a094e33f2684122133fe6d (from https://pypi.org/simple/dlib/), version: 19.7.0
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/9b/f4/8d13ff6d9c8520f96760780375af135ae0832325607690d84a367706f1e7/dlib-19.8.0.tar.gz#sha256=f541e1c33f1f74c2b84f348f4e18fb890540cb3ca3916fc9a4f7034e77ed2376 (from https://pypi.org/simple/dlib/), version: 19.8.0
+2021-11-11T18:48:46,304   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac03a8219768f0694c5d703c8e037e6aba2e865f9bae22ed63c/dlib-19.8.1-cp36-cp36m-win_amd64.whl#sha256=794994fa2c54e7776659fddb148363a5556468a6d5d46be8dad311722d54bfcf (from https://pypi.org/simple/dlib/)
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/eb/99/6e2334b09bf48493b243a0fcb60a60659c847f86cecc1c2a7839609f88eb/dlib-19.8.1.tar.gz#sha256=a0dd66c4027bdcd5b1b385d51ae04d549f937c8939b546a4b937642e658715a1 (from https://pypi.org/simple/dlib/), version: 19.8.1
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/92/7f/7711bf4bb25c7e8ff1c450bf397302d4b75e55abe6de54c75cc05a7b17db/dlib-19.8.2.tar.gz#sha256=3027573c53a4c797c829e38a9a161f224e1d600b7969290795cfedd28f8976dc (from https://pypi.org/simple/dlib/), version: 19.8.2
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/23/7a/891d4c46cdf755fb69eec0f06a53033d3754bf68ace5342ad56aeb540aa1/dlib-19.9.0.tar.gz#sha256=33a9ec8b6e9fcf0538003d019d97968dc7601f2aaa60304a6146cf0f834259da (from https://pypi.org/simple/dlib/), version: 19.9.0
+2021-11-11T18:48:46,304   Found link https://files.pythonhosted.org/packages/54/ff/5781a11bdc0d1c90a813f3f66d460abf628e5114856a842d18d43f709a7a/dlib-19.10.0.tar.gz#sha256=d253701b7c17bf87e77055ca1fca551bda9e700fe90d61d27c72c5848237637e (from https://pypi.org/simple/dlib/), version: 19.10.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/f2/02/dbffb7023494e1e39981ca65010b27501e844a0c8e79e1a3034ad8bf3734/dlib-19.12.0.tar.gz#sha256=3cd3a9cf0d8eae5f6bd7f4e87cf70eee1593e65a516f08a4712340a89f69d23e (from https://pypi.org/simple/dlib/), version: 19.12.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/79/26/8ef2835606b4b37f704862b2db55edb89675daca0b82718244fca718cddd/dlib-19.13.0.tar.gz#sha256=8a6199a8903e625afa6b67be66b511b79bf2099981e0e0daae15c59c6a3e6c5e (from https://pypi.org/simple/dlib/), version: 19.13.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/d5/5c/aa64510aa354d562ecba7edecd500b020280741140e5d91ff5ec1c6f8289/dlib-19.13.1.tar.gz#sha256=1d53739f4fa892874e61bb9602850d8d0afe8fbfb9262ff21981f594719384ed (from https://pypi.org/simple/dlib/), version: 19.13.1
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/97/08/0d2b53b3845d562d01108e482ae45596a0d13bf58c63172df954ff0b53ef/dlib-19.14.0.tar.gz#sha256=88470836cb649b380f6f9eca054f08a94b115ee2845b1eccbf8a410efb2e3dc1 (from https://pypi.org/simple/dlib/), version: 19.14.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/df/aa/6a9bb2a763107bb2606d6ee1aa65fcd3b51375a9ef6436e9c9280b0dd63c/dlib-19.15.0.tar.gz#sha256=ad5e9e6276d1486b8ef7383229379d759f155f7d2c703e67e3d84682fb2a93c5 (from https://pypi.org/simple/dlib/), version: 19.15.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/35/8d/e4ddf60452e2fb1ce3164f774e68968b3f110f1cb4cd353235d56875799e/dlib-19.16.0.tar.gz#sha256=d1f167054cec10987094861468df9c2c63b07cd97693809bd22e634d62215b26 (from https://pypi.org/simple/dlib/), version: 19.16.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/05/57/e8a8caa3c89a27f80bc78da39c423e2553f482a3705adc619176a3a24b36/dlib-19.17.0.tar.gz#sha256=92587c81b0165e933593f505fdf099dface0d0f8ec874b1d8655fc774598911f (from https://pypi.org/simple/dlib/), version: 19.17.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/1e/62/aacb236d21fbd08148b1d517d58a9d80ea31bdcd386d26f21f8b23b1eb28/dlib-19.18.0.tar.gz#sha256=8ca127253a0ca82a3d847148515f82ff2c504ed77a6385ec4f38c7f8e5360860 (from https://pypi.org/simple/dlib/), version: 19.18.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/63/92/05c3b98636661cb80d190a5a777dd94effcc14c0f6893222e5ca81e74fbc/dlib-19.19.0.tar.gz#sha256=d0eeaca07bc4c75973ad0f739a541d8fa4003af778f0dc1c2c595d470823819a (from https://pypi.org/simple/dlib/), version: 19.19.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/f1/40/e407366816646bb452578997e6ca2140f004eec8f611e8512ee429ded2be/dlib-19.20.0.tar.gz#sha256=a3f5070df590c3f510dde2f4c84b1b20e3ef64a02932ed657da490834ecac7e4 (from https://pypi.org/simple/dlib/), version: 19.20.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/a4/7b/2f7f29f460629a8143b2deea1911e2fb1d9d88d29bf645ba321461588e88/dlib-19.21.0.tar.gz#sha256=e79d8e14171b8446d6b5434d7dc3b44a23ca05c8f99266acaf731cc7b268edb6 (from https://pypi.org/simple/dlib/), version: 19.21.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/99/2c/ef681c1c717ace11040f9e99fe22dafc843cdd6085eb6120e7ab2a5c662b/dlib-19.21.1.tar.gz#sha256=6c461e1e9e03d35a569163a41500381806a449bb34a06f18700bd7658aed8c8d (from https://pypi.org/simple/dlib/), version: 19.21.1
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/11/93/ec41d6ef7e769977aa08e49441c52276da27859f12dcbf1c6deb96ce5e9f/dlib-19.22.0.tar.gz#sha256=b5f5fe43ad19a821903aad786381e5b51a9d219527148fd604e719b398e84108 (from https://pypi.org/simple/dlib/), version: 19.22.0
+2021-11-11T18:48:46,308   Found link https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c (from https://pypi.org/simple/dlib/), version: 19.22.1
+2021-11-11T18:48:46,308 Skipping link: not a file: https://pypi.org/simple/dlib/
+2021-11-11T18:48:46,308 Given no hashes to check 29 links for project 'dlib': discarding no candidates
+2021-11-11T18:48:46,324 Collecting dlib
+2021-11-11T18:48:46,324   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-unpack-j8k6enab
+2021-11-11T18:48:46,362   Using cached dlib-19.22.1.tar.gz (7.4 MB)
+2021-11-11T18:48:48,339   Added dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c to build tracker 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-jd81t2p5'
+2021-11-11T18:48:48,339     Running setup.py (path:C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\setup.py) egg_info for package dlib
+2021-11-11T18:48:48,341     Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc
+2021-11-11T18:48:48,341     Running command python setup.py egg_info
+2021-11-11T18:48:48,643     running egg_info
+2021-11-11T18:48:48,643     creating C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc\dlib.egg-info
+2021-11-11T18:48:48,643     writing C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc\dlib.egg-info\PKG-INFO
+2021-11-11T18:48:48,651     writing dependency_links to C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc\dlib.egg-info\dependency_links.txt
+2021-11-11T18:48:48,651     writing top-level names to C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc\dlib.egg-info\top_level.txt
+2021-11-11T18:48:48,652     writing manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc\dlib.egg-info\SOURCES.txt'
+2021-11-11T18:48:48,674     package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-11T18:48:48,674     reading manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc\dlib.egg-info\SOURCES.txt'
+2021-11-11T18:48:48,674     reading manifest template 'MANIFEST.in'
+2021-11-11T18:48:49,326     no previously-included directories found matching 'tools\python\build*'
+2021-11-11T18:48:49,338     no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+2021-11-11T18:48:49,350     no previously-included directories found matching 'dlib\test'
+2021-11-11T18:48:49,362     warning: no previously-included files matching '*.pyc' found anywhere in distribution
+2021-11-11T18:48:49,493     writing manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-9dg8jxvc\dlib.egg-info\SOURCES.txt'
+2021-11-11T18:48:49,518   Source in c:\users\ilia\appdata\local\temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777 has version 19.22.1, which satisfies requirement dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c
+2021-11-11T18:48:49,518   Removed dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c from build tracker 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-jd81t2p5'
+2021-11-11T18:48:49,522 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-unpack-gsgs_47x
+2021-11-11T18:48:49,522 Building wheels for collected packages: dlib
+2021-11-11T18:48:49,527   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-wheel-xoci1r7h
+2021-11-11T18:48:49,527   Destination directory: C:\Users\ilia\AppData\Local\Temp\pip-wheel-xoci1r7h
+2021-11-11T18:48:49,527   Running command 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\ilia\AppData\Local\Temp\pip-wheel-xoci1r7h'
+2021-11-11T18:48:49,827   running bdist_wheel
+2021-11-11T18:48:49,827   running build
+2021-11-11T18:48:49,827   running build_py
+2021-11-11T18:48:49,847   package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-11T18:48:49,847   running build_ext
+2021-11-11T18:48:49,881   Building extension for Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]
+2021-11-11T18:48:49,881   Invoking CMake setup: 'cmake C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\build\lib.win-amd64-3.7 -DPYTHON_EXECUTABLE=C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\build\lib.win-amd64-3.7 -A x64'
+2021-11-11T18:48:49,907   -- Building for: NMake Makefiles
+2021-11-11T18:48:49,907   CMake Error at CMakeLists.txt:5 (message):
+
+
+
+2021-11-11T18:48:49,907     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+2021-11-11T18:48:49,907     You must use Visual Studio to build a python extension on windows.  If you
+2021-11-11T18:48:49,907     are getting this error it means you have not installed Visual C++.  Note
+2021-11-11T18:48:49,907     that there are many flavors of Visual Studio, like Visual Studio for C#
+2021-11-11T18:48:49,907     development.  You need to install Visual Studio for C++.
+
+
+2021-11-11T18:48:49,907     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+2021-11-11T18:48:49,907   -- Configuring incomplete, errors occurred!
+2021-11-11T18:48:49,916   Traceback (most recent call last):
+2021-11-11T18:48:49,916     File "<string>", line 1, in <module>
+2021-11-11T18:48:49,916     File "C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\setup.py", line 261, in <module>
+2021-11-11T18:48:49,916       'Topic :: Software Development',
+2021-11-11T18:48:49,916     File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\setuptools\__init__.py", line 153, in setup
+2021-11-11T18:48:49,916       return distutils.core.setup(**attrs)
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\core.py", line 148, in setup
+2021-11-11T18:48:49,916       dist.run_commands()
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\dist.py", line 966, in run_commands
+2021-11-11T18:48:49,916       self.run_command(cmd)
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:48:49,916       cmd_obj.run()
+2021-11-11T18:48:49,916     File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+2021-11-11T18:48:49,916       self.run_command('build')
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:48:49,916       self.distribution.run_command(command)
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:48:49,916       cmd_obj.run()
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\command\build.py", line 135, in run
+2021-11-11T18:48:49,916       self.run_command(cmd_name)
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:48:49,916       self.distribution.run_command(command)
+2021-11-11T18:48:49,916     File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:48:49,920       cmd_obj.run()
+2021-11-11T18:48:49,920     File "C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\setup.py", line 134, in run
+2021-11-11T18:48:49,920       self.build_extension(ext)
+2021-11-11T18:48:49,920     File "C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\setup.py", line 171, in build_extension
+2021-11-11T18:48:49,920       subprocess.check_call(cmake_setup, cwd=build_folder)
+2021-11-11T18:48:49,920     File "M:\Python3.7.9\lib\subprocess.py", line 363, in check_call
+2021-11-11T18:48:49,921       raise CalledProcessError(retcode, cmd)
+2021-11-11T18:48:49,921   subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\build\\lib.win-amd64-3.7', '-DPYTHON_EXECUTABLE=C:\\Users\\ilia\\PycharmProjects\\FaceQ\\venv\\Scripts\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\build\\lib.win-amd64-3.7', '-A', 'x64']' returned non-zero exit status 1.
+2021-11-11T18:48:49,944   ERROR: Failed building wheel for dlib
+2021-11-11T18:48:49,944   Running setup.py clean for dlib
+2021-11-11T18:48:49,944   Running command 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' clean --all
+2021-11-11T18:48:50,227   running clean
+2021-11-11T18:48:50,227   removing 'build\temp.win-amd64-3.7' (and everything under it)
+2021-11-11T18:48:50,229   'build\lib.win-amd64-3.7' does not exist -- can't clean it
+2021-11-11T18:48:50,229   'build\bdist.win-amd64' does not exist -- can't clean it
+2021-11-11T18:48:50,229   'build\scripts-3.7' does not exist -- can't clean it
+2021-11-11T18:48:50,229   removing 'build'
+2021-11-11T18:48:50,248 Failed to build dlib
+2021-11-11T18:48:50,325 Installing collected packages: dlib
+2021-11-11T18:48:50,329   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-record-65vgmkjv
+2021-11-11T18:48:50,329     Running command 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ilia\AppData\Local\Temp\pip-record-65vgmkjv\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\ilia\PycharmProjects\FaceQ\venv\include\site\python3.7\dlib'
+2021-11-11T18:48:50,618     running install
+2021-11-11T18:48:50,618     running build
+2021-11-11T18:48:50,618     running build_py
+2021-11-11T18:48:50,639     package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-11T18:48:50,639     running build_ext
+2021-11-11T18:48:50,677     Building extension for Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]
+2021-11-11T18:48:50,677     Invoking CMake setup: 'cmake C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\build\lib.win-amd64-3.7 -DPYTHON_EXECUTABLE=C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\build\lib.win-amd64-3.7 -A x64'
+2021-11-11T18:48:50,701     -- Building for: NMake Makefiles
+2021-11-11T18:48:50,701     CMake Error at CMakeLists.txt:5 (message):
+
+
+
+2021-11-11T18:48:50,701       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+2021-11-11T18:48:50,701       You must use Visual Studio to build a python extension on windows.  If you
+2021-11-11T18:48:50,701       are getting this error it means you have not installed Visual C++.  Note
+2021-11-11T18:48:50,701       that there are many flavors of Visual Studio, like Visual Studio for C#
+2021-11-11T18:48:50,701       development.  You need to install Visual Studio for C++.
+
+
+2021-11-11T18:48:50,701       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+2021-11-11T18:48:50,704     -- Configuring incomplete, errors occurred!
+2021-11-11T18:48:50,710     Traceback (most recent call last):
+2021-11-11T18:48:50,710       File "<string>", line 1, in <module>
+2021-11-11T18:48:50,710       File "C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\setup.py", line 261, in <module>
+2021-11-11T18:48:50,710         'Topic :: Software Development',
+2021-11-11T18:48:50,711       File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\setuptools\__init__.py", line 153, in setup
+2021-11-11T18:48:50,711         return distutils.core.setup(**attrs)
+2021-11-11T18:48:50,711       File "M:\Python3.7.9\lib\distutils\core.py", line 148, in setup
+2021-11-11T18:48:50,712         dist.run_commands()
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\dist.py", line 966, in run_commands
+2021-11-11T18:48:50,712         self.run_command(cmd)
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:48:50,712         cmd_obj.run()
+2021-11-11T18:48:50,712       File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\setuptools\command\install.py", line 61, in run
+2021-11-11T18:48:50,712         return orig.install.run(self)
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\command\install.py", line 545, in run
+2021-11-11T18:48:50,712         self.run_command('build')
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:48:50,712         self.distribution.run_command(command)
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:48:50,712         cmd_obj.run()
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\command\build.py", line 135, in run
+2021-11-11T18:48:50,712         self.run_command(cmd_name)
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:48:50,712         self.distribution.run_command(command)
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:48:50,712         cmd_obj.run()
+2021-11-11T18:48:50,712       File "C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\setup.py", line 134, in run
+2021-11-11T18:48:50,712         self.build_extension(ext)
+2021-11-11T18:48:50,712       File "C:\Users\ilia\AppData\Local\Temp\pip-install-e3qo2psh\dlib_a5e8b99fcb3a45be95025cbd95de7777\setup.py", line 171, in build_extension
+2021-11-11T18:48:50,712         subprocess.check_call(cmake_setup, cwd=build_folder)
+2021-11-11T18:48:50,712       File "M:\Python3.7.9\lib\subprocess.py", line 363, in check_call
+2021-11-11T18:48:50,712         raise CalledProcessError(retcode, cmd)
+2021-11-11T18:48:50,712     subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\build\\lib.win-amd64-3.7', '-DPYTHON_EXECUTABLE=C:\\Users\\ilia\\PycharmProjects\\FaceQ\\venv\\Scripts\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\build\\lib.win-amd64-3.7', '-A', 'x64']' returned non-zero exit status 1.
+2021-11-11T18:48:50,739 ERROR: Command errored out with exit status 1: 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ilia\AppData\Local\Temp\pip-record-65vgmkjv\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\ilia\PycharmProjects\FaceQ\venv\include\site\python3.7\dlib' Check the logs for full command output.
+2021-11-11T18:48:50,739 Exception information:
+2021-11-11T18:48:50,739 Traceback (most recent call last):
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\req\req_install.py", line 839, in install
+2021-11-11T18:48:50,739     req_description=str(self.req),
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\operations\install\legacy.py", line 81, in install
+2021-11-11T18:48:50,739     raise LegacyInstallFailure
+2021-11-11T18:48:50,739 pip._internal.operations.install.legacy.LegacyInstallFailure
+2021-11-11T18:48:50,739 
+2021-11-11T18:48:50,739 During handling of the above exception, another exception occurred:
+2021-11-11T18:48:50,739 
+2021-11-11T18:48:50,739 Traceback (most recent call last):
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\cli\base_command.py", line 180, in _main
+2021-11-11T18:48:50,739     status = self.run(options, args)
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\cli\req_command.py", line 204, in wrapper
+2021-11-11T18:48:50,739     return func(self, options, args)
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\commands\install.py", line 402, in run
+2021-11-11T18:48:50,739     pycompile=options.compile,
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\req\__init__.py", line 85, in install_given_reqs
+2021-11-11T18:48:50,739     pycompile=pycompile,
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\req\req_install.py", line 843, in install
+2021-11-11T18:48:50,739     six.reraise(*exc.parent)
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_vendor\six.py", line 703, in reraise
+2021-11-11T18:48:50,739     raise value
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\operations\install\legacy.py", line 71, in install
+2021-11-11T18:48:50,739     cwd=unpacked_source_directory,
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\utils\subprocess.py", line 278, in runner
+2021-11-11T18:48:50,739     spinner=spinner,
+2021-11-11T18:48:50,739   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\utils\subprocess.py", line 244, in call_subprocess
+2021-11-11T18:48:50,739     raise InstallationSubprocessError(proc.returncode, command_desc)
+2021-11-11T18:48:50,739 pip._internal.exceptions.InstallationSubprocessError: Command errored out with exit status 1: 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-e3qo2psh\\dlib_a5e8b99fcb3a45be95025cbd95de7777\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ilia\AppData\Local\Temp\pip-record-65vgmkjv\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\ilia\PycharmProjects\FaceQ\venv\include\site\python3.7\dlib' Check the logs for full command output.
+2021-11-11T18:48:50,743 WARNING: You are using pip version 21.1.2; however, version 21.3.1 is available.
+2021-11-11T18:48:50,743 You should consider upgrading via the 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+2021-11-11T18:48:50,747 Removed build tracker: 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-jd81t2p5'
+2021-11-11T18:54:12,543 Using pip 21.1.2 from C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip (python 3.7)
+2021-11-11T18:54:12,543 Non-user install because user site-packages disabled
+2021-11-11T18:54:12,548 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-ephem-wheel-cache-utlbwdjv
+2021-11-11T18:54:12,548 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-x_98p85f
+2021-11-11T18:54:12,548 Initialized build tracking at C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-x_98p85f
+2021-11-11T18:54:12,549 Created build tracker: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-x_98p85f
+2021-11-11T18:54:12,549 Entered build tracker: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-x_98p85f
+2021-11-11T18:54:12,549 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l
+2021-11-11T18:54:12,565 1 location(s) to search for versions of dlib:
+2021-11-11T18:54:12,565 * https://pypi.org/simple/dlib/
+2021-11-11T18:54:12,565 Fetching project page and analyzing links: https://pypi.org/simple/dlib/
+2021-11-11T18:54:12,566 Getting page https://pypi.org/simple/dlib/
+2021-11-11T18:54:12,566 Found index url https://pypi.org/simple
+2021-11-11T18:54:12,773   Skipping link: none of the wheel's tags (cp27-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/76/44/d5ea0c2cfbbce3c12841de8e29ba97e305c585b98c70f8e8f1cb69855f1f/dlib-18.17.100-cp27-none-win32.whl#sha256=23523a686049ff8b9a17f1e932e70c8c563ea77a2aecdc686db7632dd5742d35 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,773   Skipping link: none of the wheel's tags (cp27-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/8b/b5/0a1f8e3cc709b845b2fb5592e0576c6194bd735519c779e6a98bf3b0f5c4/dlib-18.17.100-cp27-none-win_amd64.whl#sha256=ca70fc1eaf74176e50fa0fc90565dd7be14b7552a3d616c026099a8b2574155c (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,773   Skipping link: none of the wheel's tags (cp34-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/9e/b7/5c53db22828707d629e1a94326e14e1bb703b975352e4de427695e9c5d00/dlib-18.17.100-cp34-none-win32.whl#sha256=118039c043b1efc2d9e8e1c4b055b972358951d7770f9b61af59c8690053303f (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,773   Skipping link: none of the wheel's tags (cp34-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/66/1f/e1259d07929742e9df98e33bf315f48618809185a8a56a69cc2fd75031a2/dlib-18.17.100-cp34-none-win_amd64.whl#sha256=951b58000285d9ca41b1110af26cb96148d5059dc215fed8ce1df14c978809a2 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,773   Skipping link: none of the wheel's tags (cp35-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/e5/41/0818d66f938601f000f28b97967ae6d9f33b43b8b96e092f1873f4a6860b/dlib-18.17.100-cp35-none-win32.whl#sha256=1acf5e51ef4e5af67cb2f2eda4df3eee772c7e476611803a96330886160e34a4 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,773   Skipping link: none of the wheel's tags (cp35-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/30/91/ffef19ef1dcbe36fa1fd3d1e01e7cf8177a9edd1a13f51877f8f4623c132/dlib-18.17.100-cp35-none-win_amd64.whl#sha256=31d06be6c398a85edfaf496ce43beadd0270193cf76855f4a23cba2e6691e7f7 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,773   Found link https://files.pythonhosted.org/packages/2e/63/801499a0aa588ac29b3400477848caa43e6cbb76af3c1568fcd4b0c21cfd/dlib-18.17.100.zip#sha256=cf73a059caee158f1b1cb18c1a21020bea19311afc6dbacb2417b05ff4bf89d5 (from https://pypi.org/simple/dlib/), version: 18.17.100
+2021-11-11T18:54:12,774   Found link https://files.pythonhosted.org/packages/98/04/a42d2b901f2c456f86f3c8ace36e3df64d21d7f368b1cac468489205e850/dlib-19.0.0.tar.gz#sha256=f12433b9202c0a6aa2e730fe9784f984082d439a0eee4cb57074b9c02cf596f4 (from https://pypi.org/simple/dlib/), version: 19.0.0
+2021-11-11T18:54:12,774   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/19/e8/737eae439647f953aa1afe2f25ee88ff3399eb3c936e809f63e197e14036/dlib-19.1.0-cp35-cp35m-win_amd64.whl#sha256=a59fcc5e87ff01365e6d0711c5e3ae7676d12b8777c7a3c367e869dc9f921013 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,774   Found link https://files.pythonhosted.org/packages/24/e5/af6b0a964ff4b726146128ab4f9cd67293426357c7399effab8240d2b8be/dlib-19.1.0.tar.gz#sha256=4e7a38d823daf42675082d0341f039510562aba09ac7689aa56ceb53d7d9e7cb (from https://pypi.org/simple/dlib/), version: 19.1.0
+2021-11-11T18:54:12,774   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/33/e9/a93e58de8dc08c117c37be7598a850e9142dae3c6e385186956a35a621a5/dlib-19.3.1-cp35-cp35m-win_amd64.whl#sha256=e3b402628eca04575b69295c225180d703354ff468712e3252f1708bcc737499 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,774   Found link https://files.pythonhosted.org/packages/f7/3b/0969f13461e6ad84db58a6885c00725a6d97ed8c16b78470d11cc5f1f5de/dlib-19.3.1.tar.gz#sha256=0f35259d9da0ed24e3aefb4ad475045d469ffbf6a256dfa26edf59bbd4ac8670 (from https://pypi.org/simple/dlib/), version: 19.3.1
+2021-11-11T18:54:12,774   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/38/18/92fc25855307bcf582a30034ae657fda205de4f29773323bb388e592f17c/dlib-19.4.0-cp35-cp35m-win_amd64.whl#sha256=67e7d86eedaef650788b058d9e086198ead583f5bb3041fd9a431ae50658e9f4 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,774   Found link https://files.pythonhosted.org/packages/1d/76/0f91fde37a83a40cf27e6cabd900b975c2667c522a07ae38e31cda2fa486/dlib-19.4.0.tar.gz#sha256=c23c172dd42d7bf703392e2ba6414e986e8ff5e3be1f848f0f1d1733fc0895b8 (from https://pypi.org/simple/dlib/), version: 19.4.0
+2021-11-11T18:54:12,774   Found link https://files.pythonhosted.org/packages/82/68/3c471ddd73afb1378eee507d765bf186e724e8bc81eb44501a99345d89c7/dlib-19.5.0.tar.gz#sha256=b5896c7a51992441eac605395e07f2b31548376cadc1f392d93f69c821e6552e (from https://pypi.org/simple/dlib/), version: 19.5.0
+2021-11-11T18:54:12,775   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/24/ea/81e4fc5b978277899b1c1a63ff358f1f645f9369e59d9b5d9cc1d57c007c/dlib-19.5.1-cp36-cp36m-win_amd64.whl#sha256=7739535b76eb40cbcf49ba98d894894d06ee0b6e8f18a25fef2ab302fd5401c7 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,775   Found link https://files.pythonhosted.org/packages/47/0c/4cef6abe23eb20ebbc9d7be66a15da21f3997f49a48b415d30a14e5586f0/dlib-19.5.1.tar.gz#sha256=d2920ec5ad68a621da9da37a50664bb8bebb19510a83630d5d7c4808419c9c88 (from https://pypi.org/simple/dlib/), version: 19.5.1
+2021-11-11T18:54:12,775   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/5b/fa/65bad0783fe624f463ec3c46c0bc062d281ee33c032b3047d99ffcefc9f5/dlib-19.6.0-cp36-cp36m-win_amd64.whl#sha256=cf352921cf8ec79f3ff85868f70e6397bcbd41a265acbb410f00bf9342e28d19 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,775   Found link https://files.pythonhosted.org/packages/3f/2f/2f433c62b56842fc1c3b7855269ca95a6d9757caaa47d6b20f93f13f45c3/dlib-19.6.0.tar.gz#sha256=97c0804a2a86bf8343729b74eea0b6f4985e048353c71eda6b62cb9e8cc5e1fe (from https://pypi.org/simple/dlib/), version: 19.6.0
+2021-11-11T18:54:12,775   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/3c/97/e8e15bb7288c77085c130f9495f4a884a80a5c9f4634392cdae0aa8f53fe/dlib-19.6.1-cp36-cp36m-win_amd64.whl#sha256=aaa195c7820c3b301f74e5a7322d45101b2667ca8ccd5fc3085fd340e7cd3b68 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,775   Found link https://files.pythonhosted.org/packages/e2/b3/8f689f96b6f2b1f66b6d8d0f91d5b1eb69a7f6a202869e64b0ff6ef74a06/dlib-19.6.1.tar.gz#sha256=43c30681eed2bbccb17a33558f84075150dfe2483aa3bbd9e3b9472b9eb4e212 (from https://pypi.org/simple/dlib/), version: 19.6.1
+2021-11-11T18:54:12,775   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-win_amd64.whl#sha256=d71c78dce0f7614e05b92518cf4ad654af9e8bfc9e15dea6af3c4dbb306bcd09 (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,775   Found link https://files.pythonhosted.org/packages/e2/79/6aba1d2b3f9fbcf34d583188d8ff6818952ea875dceedf7c34a869637573/dlib-19.7.0.tar.gz#sha256=8728d820094f8df4a7c66fa5d8b4c944921ae79c56a094e33f2684122133fe6d (from https://pypi.org/simple/dlib/), version: 19.7.0
+2021-11-11T18:54:12,776   Found link https://files.pythonhosted.org/packages/9b/f4/8d13ff6d9c8520f96760780375af135ae0832325607690d84a367706f1e7/dlib-19.8.0.tar.gz#sha256=f541e1c33f1f74c2b84f348f4e18fb890540cb3ca3916fc9a4f7034e77ed2376 (from https://pypi.org/simple/dlib/), version: 19.8.0
+2021-11-11T18:54:12,776   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac03a8219768f0694c5d703c8e037e6aba2e865f9bae22ed63c/dlib-19.8.1-cp36-cp36m-win_amd64.whl#sha256=794994fa2c54e7776659fddb148363a5556468a6d5d46be8dad311722d54bfcf (from https://pypi.org/simple/dlib/)
+2021-11-11T18:54:12,776   Found link https://files.pythonhosted.org/packages/eb/99/6e2334b09bf48493b243a0fcb60a60659c847f86cecc1c2a7839609f88eb/dlib-19.8.1.tar.gz#sha256=a0dd66c4027bdcd5b1b385d51ae04d549f937c8939b546a4b937642e658715a1 (from https://pypi.org/simple/dlib/), version: 19.8.1
+2021-11-11T18:54:12,776   Found link https://files.pythonhosted.org/packages/92/7f/7711bf4bb25c7e8ff1c450bf397302d4b75e55abe6de54c75cc05a7b17db/dlib-19.8.2.tar.gz#sha256=3027573c53a4c797c829e38a9a161f224e1d600b7969290795cfedd28f8976dc (from https://pypi.org/simple/dlib/), version: 19.8.2
+2021-11-11T18:54:12,776   Found link https://files.pythonhosted.org/packages/23/7a/891d4c46cdf755fb69eec0f06a53033d3754bf68ace5342ad56aeb540aa1/dlib-19.9.0.tar.gz#sha256=33a9ec8b6e9fcf0538003d019d97968dc7601f2aaa60304a6146cf0f834259da (from https://pypi.org/simple/dlib/), version: 19.9.0
+2021-11-11T18:54:12,776   Found link https://files.pythonhosted.org/packages/54/ff/5781a11bdc0d1c90a813f3f66d460abf628e5114856a842d18d43f709a7a/dlib-19.10.0.tar.gz#sha256=d253701b7c17bf87e77055ca1fca551bda9e700fe90d61d27c72c5848237637e (from https://pypi.org/simple/dlib/), version: 19.10.0
+2021-11-11T18:54:12,776   Found link https://files.pythonhosted.org/packages/f2/02/dbffb7023494e1e39981ca65010b27501e844a0c8e79e1a3034ad8bf3734/dlib-19.12.0.tar.gz#sha256=3cd3a9cf0d8eae5f6bd7f4e87cf70eee1593e65a516f08a4712340a89f69d23e (from https://pypi.org/simple/dlib/), version: 19.12.0
+2021-11-11T18:54:12,776   Found link https://files.pythonhosted.org/packages/79/26/8ef2835606b4b37f704862b2db55edb89675daca0b82718244fca718cddd/dlib-19.13.0.tar.gz#sha256=8a6199a8903e625afa6b67be66b511b79bf2099981e0e0daae15c59c6a3e6c5e (from https://pypi.org/simple/dlib/), version: 19.13.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/d5/5c/aa64510aa354d562ecba7edecd500b020280741140e5d91ff5ec1c6f8289/dlib-19.13.1.tar.gz#sha256=1d53739f4fa892874e61bb9602850d8d0afe8fbfb9262ff21981f594719384ed (from https://pypi.org/simple/dlib/), version: 19.13.1
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/97/08/0d2b53b3845d562d01108e482ae45596a0d13bf58c63172df954ff0b53ef/dlib-19.14.0.tar.gz#sha256=88470836cb649b380f6f9eca054f08a94b115ee2845b1eccbf8a410efb2e3dc1 (from https://pypi.org/simple/dlib/), version: 19.14.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/df/aa/6a9bb2a763107bb2606d6ee1aa65fcd3b51375a9ef6436e9c9280b0dd63c/dlib-19.15.0.tar.gz#sha256=ad5e9e6276d1486b8ef7383229379d759f155f7d2c703e67e3d84682fb2a93c5 (from https://pypi.org/simple/dlib/), version: 19.15.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/35/8d/e4ddf60452e2fb1ce3164f774e68968b3f110f1cb4cd353235d56875799e/dlib-19.16.0.tar.gz#sha256=d1f167054cec10987094861468df9c2c63b07cd97693809bd22e634d62215b26 (from https://pypi.org/simple/dlib/), version: 19.16.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/05/57/e8a8caa3c89a27f80bc78da39c423e2553f482a3705adc619176a3a24b36/dlib-19.17.0.tar.gz#sha256=92587c81b0165e933593f505fdf099dface0d0f8ec874b1d8655fc774598911f (from https://pypi.org/simple/dlib/), version: 19.17.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/1e/62/aacb236d21fbd08148b1d517d58a9d80ea31bdcd386d26f21f8b23b1eb28/dlib-19.18.0.tar.gz#sha256=8ca127253a0ca82a3d847148515f82ff2c504ed77a6385ec4f38c7f8e5360860 (from https://pypi.org/simple/dlib/), version: 19.18.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/63/92/05c3b98636661cb80d190a5a777dd94effcc14c0f6893222e5ca81e74fbc/dlib-19.19.0.tar.gz#sha256=d0eeaca07bc4c75973ad0f739a541d8fa4003af778f0dc1c2c595d470823819a (from https://pypi.org/simple/dlib/), version: 19.19.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/f1/40/e407366816646bb452578997e6ca2140f004eec8f611e8512ee429ded2be/dlib-19.20.0.tar.gz#sha256=a3f5070df590c3f510dde2f4c84b1b20e3ef64a02932ed657da490834ecac7e4 (from https://pypi.org/simple/dlib/), version: 19.20.0
+2021-11-11T18:54:12,777   Found link https://files.pythonhosted.org/packages/a4/7b/2f7f29f460629a8143b2deea1911e2fb1d9d88d29bf645ba321461588e88/dlib-19.21.0.tar.gz#sha256=e79d8e14171b8446d6b5434d7dc3b44a23ca05c8f99266acaf731cc7b268edb6 (from https://pypi.org/simple/dlib/), version: 19.21.0
+2021-11-11T18:54:12,778   Found link https://files.pythonhosted.org/packages/99/2c/ef681c1c717ace11040f9e99fe22dafc843cdd6085eb6120e7ab2a5c662b/dlib-19.21.1.tar.gz#sha256=6c461e1e9e03d35a569163a41500381806a449bb34a06f18700bd7658aed8c8d (from https://pypi.org/simple/dlib/), version: 19.21.1
+2021-11-11T18:54:12,778   Found link https://files.pythonhosted.org/packages/11/93/ec41d6ef7e769977aa08e49441c52276da27859f12dcbf1c6deb96ce5e9f/dlib-19.22.0.tar.gz#sha256=b5f5fe43ad19a821903aad786381e5b51a9d219527148fd604e719b398e84108 (from https://pypi.org/simple/dlib/), version: 19.22.0
+2021-11-11T18:54:12,778   Found link https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c (from https://pypi.org/simple/dlib/), version: 19.22.1
+2021-11-11T18:54:12,778 Skipping link: not a file: https://pypi.org/simple/dlib/
+2021-11-11T18:54:12,779 Given no hashes to check 29 links for project 'dlib': discarding no candidates
+2021-11-11T18:54:12,782 Collecting dlib
+2021-11-11T18:54:12,783   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-unpack-ovgtylo4
+2021-11-11T18:54:12,812   Using cached dlib-19.22.1.tar.gz (7.4 MB)
+2021-11-11T18:54:14,921   Added dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c to build tracker 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-x_98p85f'
+2021-11-11T18:54:14,922     Running setup.py (path:C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\setup.py) egg_info for package dlib
+2021-11-11T18:54:14,922     Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_
+2021-11-11T18:54:14,922     Running command python setup.py egg_info
+2021-11-11T18:54:15,386     running egg_info
+2021-11-11T18:54:15,387     creating C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_\dlib.egg-info
+2021-11-11T18:54:15,388     writing C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_\dlib.egg-info\PKG-INFO
+2021-11-11T18:54:15,393     writing dependency_links to C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_\dlib.egg-info\dependency_links.txt
+2021-11-11T18:54:15,395     writing top-level names to C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_\dlib.egg-info\top_level.txt
+2021-11-11T18:54:15,396     writing manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_\dlib.egg-info\SOURCES.txt'
+2021-11-11T18:54:15,433     package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-11T18:54:15,434     reading manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_\dlib.egg-info\SOURCES.txt'
+2021-11-11T18:54:15,435     reading manifest template 'MANIFEST.in'
+2021-11-11T18:54:16,437     no previously-included directories found matching 'tools\python\build*'
+2021-11-11T18:54:16,456     no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+2021-11-11T18:54:16,475     no previously-included directories found matching 'dlib\test'
+2021-11-11T18:54:16,495     warning: no previously-included files matching '*.pyc' found anywhere in distribution
+2021-11-11T18:54:16,677     writing manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-rq8f5ki_\dlib.egg-info\SOURCES.txt'
+2021-11-11T18:54:16,710   Source in c:\users\ilia\appdata\local\temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442 has version 19.22.1, which satisfies requirement dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c
+2021-11-11T18:54:16,711   Removed dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c from build tracker 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-x_98p85f'
+2021-11-11T18:54:16,713 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-unpack-3tbjznlc
+2021-11-11T18:54:16,714 Building wheels for collected packages: dlib
+2021-11-11T18:54:16,716   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-wheel-n4_d_xqm
+2021-11-11T18:54:16,716   Destination directory: C:\Users\ilia\AppData\Local\Temp\pip-wheel-n4_d_xqm
+2021-11-11T18:54:16,716   Running command 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\ilia\AppData\Local\Temp\pip-wheel-n4_d_xqm'
+2021-11-11T18:54:17,148   running bdist_wheel
+2021-11-11T18:54:17,151   running build
+2021-11-11T18:54:17,151   running build_py
+2021-11-11T18:54:17,178   package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-11T18:54:17,178   running build_ext
+2021-11-11T18:54:17,222   Building extension for Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]
+2021-11-11T18:54:17,223   Invoking CMake setup: 'cmake C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\build\lib.win-amd64-3.7 -DPYTHON_EXECUTABLE=C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\build\lib.win-amd64-3.7 -A x64'
+2021-11-11T18:54:17,257   -- Building for: NMake Makefiles
+2021-11-11T18:54:17,259   CMake Error at CMakeLists.txt:5 (message):
+
+
+
+2021-11-11T18:54:17,260     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+2021-11-11T18:54:17,260     You must use Visual Studio to build a python extension on windows.  If you
+2021-11-11T18:54:17,260     are getting this error it means you have not installed Visual C++.  Note
+2021-11-11T18:54:17,260     that there are many flavors of Visual Studio, like Visual Studio for C#
+2021-11-11T18:54:17,261     development.  You need to install Visual Studio for C++.
+
+
+2021-11-11T18:54:17,261     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+2021-11-11T18:54:17,261   -- Configuring incomplete, errors occurred!
+2021-11-11T18:54:17,272   Traceback (most recent call last):
+2021-11-11T18:54:17,272     File "<string>", line 1, in <module>
+2021-11-11T18:54:17,273     File "C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\setup.py", line 261, in <module>
+2021-11-11T18:54:17,273       'Topic :: Software Development',
+2021-11-11T18:54:17,273     File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\setuptools\__init__.py", line 153, in setup
+2021-11-11T18:54:17,273       return distutils.core.setup(**attrs)
+2021-11-11T18:54:17,273     File "M:\Python3.7.9\lib\distutils\core.py", line 148, in setup
+2021-11-11T18:54:17,273       dist.run_commands()
+2021-11-11T18:54:17,273     File "M:\Python3.7.9\lib\distutils\dist.py", line 966, in run_commands
+2021-11-11T18:54:17,274       self.run_command(cmd)
+2021-11-11T18:54:17,274     File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:54:17,275       cmd_obj.run()
+2021-11-11T18:54:17,275     File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+2021-11-11T18:54:17,275       self.run_command('build')
+2021-11-11T18:54:17,276     File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:54:17,276       self.distribution.run_command(command)
+2021-11-11T18:54:17,276     File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:54:17,276       cmd_obj.run()
+2021-11-11T18:54:17,277     File "M:\Python3.7.9\lib\distutils\command\build.py", line 135, in run
+2021-11-11T18:54:17,277       self.run_command(cmd_name)
+2021-11-11T18:54:17,277     File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:54:17,277       self.distribution.run_command(command)
+2021-11-11T18:54:17,278     File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:54:17,278       cmd_obj.run()
+2021-11-11T18:54:17,279     File "C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\setup.py", line 134, in run
+2021-11-11T18:54:17,279       self.build_extension(ext)
+2021-11-11T18:54:17,279     File "C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\setup.py", line 171, in build_extension
+2021-11-11T18:54:17,279       subprocess.check_call(cmake_setup, cwd=build_folder)
+2021-11-11T18:54:17,279     File "M:\Python3.7.9\lib\subprocess.py", line 363, in check_call
+2021-11-11T18:54:17,280       raise CalledProcessError(retcode, cmd)
+2021-11-11T18:54:17,280   subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\build\\lib.win-amd64-3.7', '-DPYTHON_EXECUTABLE=C:\\Users\\ilia\\PycharmProjects\\FaceQ\\venv\\Scripts\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\build\\lib.win-amd64-3.7', '-A', 'x64']' returned non-zero exit status 1.
+2021-11-11T18:54:17,312   ERROR: Failed building wheel for dlib
+2021-11-11T18:54:17,313   Running setup.py clean for dlib
+2021-11-11T18:54:17,314   Running command 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' clean --all
+2021-11-11T18:54:17,740   running clean
+2021-11-11T18:54:17,741   removing 'build\temp.win-amd64-3.7' (and everything under it)
+2021-11-11T18:54:17,743   'build\lib.win-amd64-3.7' does not exist -- can't clean it
+2021-11-11T18:54:17,743   'build\bdist.win-amd64' does not exist -- can't clean it
+2021-11-11T18:54:17,743   'build\scripts-3.7' does not exist -- can't clean it
+2021-11-11T18:54:17,743   removing 'build'
+2021-11-11T18:54:17,772 Failed to build dlib
+2021-11-11T18:54:17,888 Installing collected packages: dlib
+2021-11-11T18:54:17,891   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-record-xp6av573
+2021-11-11T18:54:17,891     Running command 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ilia\AppData\Local\Temp\pip-record-xp6av573\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\ilia\PycharmProjects\FaceQ\venv\include\site\python3.7\dlib'
+2021-11-11T18:54:18,314     running install
+2021-11-11T18:54:18,316     running build
+2021-11-11T18:54:18,316     running build_py
+2021-11-11T18:54:18,343     package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-11T18:54:18,344     running build_ext
+2021-11-11T18:54:18,386     Building extension for Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]
+2021-11-11T18:54:18,386     Invoking CMake setup: 'cmake C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\build\lib.win-amd64-3.7 -DPYTHON_EXECUTABLE=C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\build\lib.win-amd64-3.7 -A x64'
+2021-11-11T18:54:18,420     -- Building for: NMake Makefiles
+2021-11-11T18:54:18,422     CMake Error at CMakeLists.txt:5 (message):
+
+
+
+2021-11-11T18:54:18,423       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+2021-11-11T18:54:18,423       You must use Visual Studio to build a python extension on windows.  If you
+2021-11-11T18:54:18,423       are getting this error it means you have not installed Visual C++.  Note
+2021-11-11T18:54:18,423       that there are many flavors of Visual Studio, like Visual Studio for C#
+2021-11-11T18:54:18,423       development.  You need to install Visual Studio for C++.
+
+
+2021-11-11T18:54:18,424       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+2021-11-11T18:54:18,424     -- Configuring incomplete, errors occurred!
+2021-11-11T18:54:18,435     Traceback (most recent call last):
+2021-11-11T18:54:18,435       File "<string>", line 1, in <module>
+2021-11-11T18:54:18,435       File "C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\setup.py", line 261, in <module>
+2021-11-11T18:54:18,436         'Topic :: Software Development',
+2021-11-11T18:54:18,436       File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\setuptools\__init__.py", line 153, in setup
+2021-11-11T18:54:18,437         return distutils.core.setup(**attrs)
+2021-11-11T18:54:18,437       File "M:\Python3.7.9\lib\distutils\core.py", line 148, in setup
+2021-11-11T18:54:18,437         dist.run_commands()
+2021-11-11T18:54:18,437       File "M:\Python3.7.9\lib\distutils\dist.py", line 966, in run_commands
+2021-11-11T18:54:18,437         self.run_command(cmd)
+2021-11-11T18:54:18,437       File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:54:18,438         cmd_obj.run()
+2021-11-11T18:54:18,438       File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\setuptools\command\install.py", line 61, in run
+2021-11-11T18:54:18,438         return orig.install.run(self)
+2021-11-11T18:54:18,438       File "M:\Python3.7.9\lib\distutils\command\install.py", line 545, in run
+2021-11-11T18:54:18,438         self.run_command('build')
+2021-11-11T18:54:18,439       File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:54:18,439         self.distribution.run_command(command)
+2021-11-11T18:54:18,439       File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:54:18,439         cmd_obj.run()
+2021-11-11T18:54:18,440       File "M:\Python3.7.9\lib\distutils\command\build.py", line 135, in run
+2021-11-11T18:54:18,440         self.run_command(cmd_name)
+2021-11-11T18:54:18,440       File "M:\Python3.7.9\lib\distutils\cmd.py", line 313, in run_command
+2021-11-11T18:54:18,440         self.distribution.run_command(command)
+2021-11-11T18:54:18,440       File "M:\Python3.7.9\lib\distutils\dist.py", line 985, in run_command
+2021-11-11T18:54:18,441         cmd_obj.run()
+2021-11-11T18:54:18,441       File "C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\setup.py", line 134, in run
+2021-11-11T18:54:18,441         self.build_extension(ext)
+2021-11-11T18:54:18,441       File "C:\Users\ilia\AppData\Local\Temp\pip-install-l5iy2r0l\dlib_67c536384f0843c288224619cef65442\setup.py", line 171, in build_extension
+2021-11-11T18:54:18,441         subprocess.check_call(cmake_setup, cwd=build_folder)
+2021-11-11T18:54:18,441       File "M:\Python3.7.9\lib\subprocess.py", line 363, in check_call
+2021-11-11T18:54:18,442         raise CalledProcessError(retcode, cmd)
+2021-11-11T18:54:18,442     subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\build\\lib.win-amd64-3.7', '-DPYTHON_EXECUTABLE=C:\\Users\\ilia\\PycharmProjects\\FaceQ\\venv\\Scripts\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\build\\lib.win-amd64-3.7', '-A', 'x64']' returned non-zero exit status 1.
+2021-11-11T18:54:18,475 ERROR: Command errored out with exit status 1: 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ilia\AppData\Local\Temp\pip-record-xp6av573\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\ilia\PycharmProjects\FaceQ\venv\include\site\python3.7\dlib' Check the logs for full command output.
+2021-11-11T18:54:18,476 Exception information:
+2021-11-11T18:54:18,476 Traceback (most recent call last):
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\req\req_install.py", line 839, in install
+2021-11-11T18:54:18,476     req_description=str(self.req),
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\operations\install\legacy.py", line 81, in install
+2021-11-11T18:54:18,476     raise LegacyInstallFailure
+2021-11-11T18:54:18,476 pip._internal.operations.install.legacy.LegacyInstallFailure
+2021-11-11T18:54:18,476 
+2021-11-11T18:54:18,476 During handling of the above exception, another exception occurred:
+2021-11-11T18:54:18,476 
+2021-11-11T18:54:18,476 Traceback (most recent call last):
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\cli\base_command.py", line 180, in _main
+2021-11-11T18:54:18,476     status = self.run(options, args)
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\cli\req_command.py", line 204, in wrapper
+2021-11-11T18:54:18,476     return func(self, options, args)
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\commands\install.py", line 402, in run
+2021-11-11T18:54:18,476     pycompile=options.compile,
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\req\__init__.py", line 85, in install_given_reqs
+2021-11-11T18:54:18,476     pycompile=pycompile,
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\req\req_install.py", line 843, in install
+2021-11-11T18:54:18,476     six.reraise(*exc.parent)
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_vendor\six.py", line 703, in reraise
+2021-11-11T18:54:18,476     raise value
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\operations\install\legacy.py", line 71, in install
+2021-11-11T18:54:18,476     cwd=unpacked_source_directory,
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\utils\subprocess.py", line 278, in runner
+2021-11-11T18:54:18,476     spinner=spinner,
+2021-11-11T18:54:18,476   File "C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip\_internal\utils\subprocess.py", line 244, in call_subprocess
+2021-11-11T18:54:18,476     raise InstallationSubprocessError(proc.returncode, command_desc)
+2021-11-11T18:54:18,476 pip._internal.exceptions.InstallationSubprocessError: Command errored out with exit status 1: 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-l5iy2r0l\\dlib_67c536384f0843c288224619cef65442\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ilia\AppData\Local\Temp\pip-record-xp6av573\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\ilia\PycharmProjects\FaceQ\venv\include\site\python3.7\dlib' Check the logs for full command output.
+2021-11-11T18:54:18,486 WARNING: You are using pip version 21.1.2; however, version 21.3.1 is available.
+2021-11-11T18:54:18,486 You should consider upgrading via the 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+2021-11-11T18:54:18,486 Removed build tracker: 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-x_98p85f'
+2021-11-12T18:31:45,214 Using pip 21.1.2 from C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\pip (python 3.7)
+2021-11-12T18:31:45,214 Non-user install because user site-packages disabled
+2021-11-12T18:31:45,214 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-ephem-wheel-cache-gg9cxu87
+2021-11-12T18:31:45,214 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-f136tsjp
+2021-11-12T18:31:45,214 Initialized build tracking at C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-f136tsjp
+2021-11-12T18:31:45,214 Created build tracker: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-f136tsjp
+2021-11-12T18:31:45,214 Entered build tracker: C:\Users\ilia\AppData\Local\Temp\pip-req-tracker-f136tsjp
+2021-11-12T18:31:45,214 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6
+2021-11-12T18:31:45,244 1 location(s) to search for versions of dlib:
+2021-11-12T18:31:45,244 * https://pypi.org/simple/dlib/
+2021-11-12T18:31:45,244 Fetching project page and analyzing links: https://pypi.org/simple/dlib/
+2021-11-12T18:31:45,244 Getting page https://pypi.org/simple/dlib/
+2021-11-12T18:31:45,244 Found index url https://pypi.org/simple
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp27-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/76/44/d5ea0c2cfbbce3c12841de8e29ba97e305c585b98c70f8e8f1cb69855f1f/dlib-18.17.100-cp27-none-win32.whl#sha256=23523a686049ff8b9a17f1e932e70c8c563ea77a2aecdc686db7632dd5742d35 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp27-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/8b/b5/0a1f8e3cc709b845b2fb5592e0576c6194bd735519c779e6a98bf3b0f5c4/dlib-18.17.100-cp27-none-win_amd64.whl#sha256=ca70fc1eaf74176e50fa0fc90565dd7be14b7552a3d616c026099a8b2574155c (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp34-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/9e/b7/5c53db22828707d629e1a94326e14e1bb703b975352e4de427695e9c5d00/dlib-18.17.100-cp34-none-win32.whl#sha256=118039c043b1efc2d9e8e1c4b055b972358951d7770f9b61af59c8690053303f (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp34-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/66/1f/e1259d07929742e9df98e33bf315f48618809185a8a56a69cc2fd75031a2/dlib-18.17.100-cp34-none-win_amd64.whl#sha256=951b58000285d9ca41b1110af26cb96148d5059dc215fed8ce1df14c978809a2 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp35-none-win32) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/e5/41/0818d66f938601f000f28b97967ae6d9f33b43b8b96e092f1873f4a6860b/dlib-18.17.100-cp35-none-win32.whl#sha256=1acf5e51ef4e5af67cb2f2eda4df3eee772c7e476611803a96330886160e34a4 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp35-none-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/30/91/ffef19ef1dcbe36fa1fd3d1e01e7cf8177a9edd1a13f51877f8f4623c132/dlib-18.17.100-cp35-none-win_amd64.whl#sha256=31d06be6c398a85edfaf496ce43beadd0270193cf76855f4a23cba2e6691e7f7 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/2e/63/801499a0aa588ac29b3400477848caa43e6cbb76af3c1568fcd4b0c21cfd/dlib-18.17.100.zip#sha256=cf73a059caee158f1b1cb18c1a21020bea19311afc6dbacb2417b05ff4bf89d5 (from https://pypi.org/simple/dlib/), version: 18.17.100
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/98/04/a42d2b901f2c456f86f3c8ace36e3df64d21d7f368b1cac468489205e850/dlib-19.0.0.tar.gz#sha256=f12433b9202c0a6aa2e730fe9784f984082d439a0eee4cb57074b9c02cf596f4 (from https://pypi.org/simple/dlib/), version: 19.0.0
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/19/e8/737eae439647f953aa1afe2f25ee88ff3399eb3c936e809f63e197e14036/dlib-19.1.0-cp35-cp35m-win_amd64.whl#sha256=a59fcc5e87ff01365e6d0711c5e3ae7676d12b8777c7a3c367e869dc9f921013 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/24/e5/af6b0a964ff4b726146128ab4f9cd67293426357c7399effab8240d2b8be/dlib-19.1.0.tar.gz#sha256=4e7a38d823daf42675082d0341f039510562aba09ac7689aa56ceb53d7d9e7cb (from https://pypi.org/simple/dlib/), version: 19.1.0
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/33/e9/a93e58de8dc08c117c37be7598a850e9142dae3c6e385186956a35a621a5/dlib-19.3.1-cp35-cp35m-win_amd64.whl#sha256=e3b402628eca04575b69295c225180d703354ff468712e3252f1708bcc737499 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/f7/3b/0969f13461e6ad84db58a6885c00725a6d97ed8c16b78470d11cc5f1f5de/dlib-19.3.1.tar.gz#sha256=0f35259d9da0ed24e3aefb4ad475045d469ffbf6a256dfa26edf59bbd4ac8670 (from https://pypi.org/simple/dlib/), version: 19.3.1
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp35-cp35m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/38/18/92fc25855307bcf582a30034ae657fda205de4f29773323bb388e592f17c/dlib-19.4.0-cp35-cp35m-win_amd64.whl#sha256=67e7d86eedaef650788b058d9e086198ead583f5bb3041fd9a431ae50658e9f4 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/1d/76/0f91fde37a83a40cf27e6cabd900b975c2667c522a07ae38e31cda2fa486/dlib-19.4.0.tar.gz#sha256=c23c172dd42d7bf703392e2ba6414e986e8ff5e3be1f848f0f1d1733fc0895b8 (from https://pypi.org/simple/dlib/), version: 19.4.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/82/68/3c471ddd73afb1378eee507d765bf186e724e8bc81eb44501a99345d89c7/dlib-19.5.0.tar.gz#sha256=b5896c7a51992441eac605395e07f2b31548376cadc1f392d93f69c821e6552e (from https://pypi.org/simple/dlib/), version: 19.5.0
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/24/ea/81e4fc5b978277899b1c1a63ff358f1f645f9369e59d9b5d9cc1d57c007c/dlib-19.5.1-cp36-cp36m-win_amd64.whl#sha256=7739535b76eb40cbcf49ba98d894894d06ee0b6e8f18a25fef2ab302fd5401c7 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/47/0c/4cef6abe23eb20ebbc9d7be66a15da21f3997f49a48b415d30a14e5586f0/dlib-19.5.1.tar.gz#sha256=d2920ec5ad68a621da9da37a50664bb8bebb19510a83630d5d7c4808419c9c88 (from https://pypi.org/simple/dlib/), version: 19.5.1
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/5b/fa/65bad0783fe624f463ec3c46c0bc062d281ee33c032b3047d99ffcefc9f5/dlib-19.6.0-cp36-cp36m-win_amd64.whl#sha256=cf352921cf8ec79f3ff85868f70e6397bcbd41a265acbb410f00bf9342e28d19 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/3f/2f/2f433c62b56842fc1c3b7855269ca95a6d9757caaa47d6b20f93f13f45c3/dlib-19.6.0.tar.gz#sha256=97c0804a2a86bf8343729b74eea0b6f4985e048353c71eda6b62cb9e8cc5e1fe (from https://pypi.org/simple/dlib/), version: 19.6.0
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/3c/97/e8e15bb7288c77085c130f9495f4a884a80a5c9f4634392cdae0aa8f53fe/dlib-19.6.1-cp36-cp36m-win_amd64.whl#sha256=aaa195c7820c3b301f74e5a7322d45101b2667ca8ccd5fc3085fd340e7cd3b68 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/e2/b3/8f689f96b6f2b1f66b6d8d0f91d5b1eb69a7f6a202869e64b0ff6ef74a06/dlib-19.6.1.tar.gz#sha256=43c30681eed2bbccb17a33558f84075150dfe2483aa3bbd9e3b9472b9eb4e212 (from https://pypi.org/simple/dlib/), version: 19.6.1
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-win_amd64.whl#sha256=d71c78dce0f7614e05b92518cf4ad654af9e8bfc9e15dea6af3c4dbb306bcd09 (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/e2/79/6aba1d2b3f9fbcf34d583188d8ff6818952ea875dceedf7c34a869637573/dlib-19.7.0.tar.gz#sha256=8728d820094f8df4a7c66fa5d8b4c944921ae79c56a094e33f2684122133fe6d (from https://pypi.org/simple/dlib/), version: 19.7.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/9b/f4/8d13ff6d9c8520f96760780375af135ae0832325607690d84a367706f1e7/dlib-19.8.0.tar.gz#sha256=f541e1c33f1f74c2b84f348f4e18fb890540cb3ca3916fc9a4f7034e77ed2376 (from https://pypi.org/simple/dlib/), version: 19.8.0
+2021-11-12T18:31:45,554   Skipping link: none of the wheel's tags (cp36-cp36m-win_amd64) are compatible (run pip debug --verbose to show compatible tags): https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac03a8219768f0694c5d703c8e037e6aba2e865f9bae22ed63c/dlib-19.8.1-cp36-cp36m-win_amd64.whl#sha256=794994fa2c54e7776659fddb148363a5556468a6d5d46be8dad311722d54bfcf (from https://pypi.org/simple/dlib/)
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/eb/99/6e2334b09bf48493b243a0fcb60a60659c847f86cecc1c2a7839609f88eb/dlib-19.8.1.tar.gz#sha256=a0dd66c4027bdcd5b1b385d51ae04d549f937c8939b546a4b937642e658715a1 (from https://pypi.org/simple/dlib/), version: 19.8.1
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/92/7f/7711bf4bb25c7e8ff1c450bf397302d4b75e55abe6de54c75cc05a7b17db/dlib-19.8.2.tar.gz#sha256=3027573c53a4c797c829e38a9a161f224e1d600b7969290795cfedd28f8976dc (from https://pypi.org/simple/dlib/), version: 19.8.2
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/23/7a/891d4c46cdf755fb69eec0f06a53033d3754bf68ace5342ad56aeb540aa1/dlib-19.9.0.tar.gz#sha256=33a9ec8b6e9fcf0538003d019d97968dc7601f2aaa60304a6146cf0f834259da (from https://pypi.org/simple/dlib/), version: 19.9.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/54/ff/5781a11bdc0d1c90a813f3f66d460abf628e5114856a842d18d43f709a7a/dlib-19.10.0.tar.gz#sha256=d253701b7c17bf87e77055ca1fca551bda9e700fe90d61d27c72c5848237637e (from https://pypi.org/simple/dlib/), version: 19.10.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/f2/02/dbffb7023494e1e39981ca65010b27501e844a0c8e79e1a3034ad8bf3734/dlib-19.12.0.tar.gz#sha256=3cd3a9cf0d8eae5f6bd7f4e87cf70eee1593e65a516f08a4712340a89f69d23e (from https://pypi.org/simple/dlib/), version: 19.12.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/79/26/8ef2835606b4b37f704862b2db55edb89675daca0b82718244fca718cddd/dlib-19.13.0.tar.gz#sha256=8a6199a8903e625afa6b67be66b511b79bf2099981e0e0daae15c59c6a3e6c5e (from https://pypi.org/simple/dlib/), version: 19.13.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/d5/5c/aa64510aa354d562ecba7edecd500b020280741140e5d91ff5ec1c6f8289/dlib-19.13.1.tar.gz#sha256=1d53739f4fa892874e61bb9602850d8d0afe8fbfb9262ff21981f594719384ed (from https://pypi.org/simple/dlib/), version: 19.13.1
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/97/08/0d2b53b3845d562d01108e482ae45596a0d13bf58c63172df954ff0b53ef/dlib-19.14.0.tar.gz#sha256=88470836cb649b380f6f9eca054f08a94b115ee2845b1eccbf8a410efb2e3dc1 (from https://pypi.org/simple/dlib/), version: 19.14.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/df/aa/6a9bb2a763107bb2606d6ee1aa65fcd3b51375a9ef6436e9c9280b0dd63c/dlib-19.15.0.tar.gz#sha256=ad5e9e6276d1486b8ef7383229379d759f155f7d2c703e67e3d84682fb2a93c5 (from https://pypi.org/simple/dlib/), version: 19.15.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/35/8d/e4ddf60452e2fb1ce3164f774e68968b3f110f1cb4cd353235d56875799e/dlib-19.16.0.tar.gz#sha256=d1f167054cec10987094861468df9c2c63b07cd97693809bd22e634d62215b26 (from https://pypi.org/simple/dlib/), version: 19.16.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/05/57/e8a8caa3c89a27f80bc78da39c423e2553f482a3705adc619176a3a24b36/dlib-19.17.0.tar.gz#sha256=92587c81b0165e933593f505fdf099dface0d0f8ec874b1d8655fc774598911f (from https://pypi.org/simple/dlib/), version: 19.17.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/1e/62/aacb236d21fbd08148b1d517d58a9d80ea31bdcd386d26f21f8b23b1eb28/dlib-19.18.0.tar.gz#sha256=8ca127253a0ca82a3d847148515f82ff2c504ed77a6385ec4f38c7f8e5360860 (from https://pypi.org/simple/dlib/), version: 19.18.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/63/92/05c3b98636661cb80d190a5a777dd94effcc14c0f6893222e5ca81e74fbc/dlib-19.19.0.tar.gz#sha256=d0eeaca07bc4c75973ad0f739a541d8fa4003af778f0dc1c2c595d470823819a (from https://pypi.org/simple/dlib/), version: 19.19.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/f1/40/e407366816646bb452578997e6ca2140f004eec8f611e8512ee429ded2be/dlib-19.20.0.tar.gz#sha256=a3f5070df590c3f510dde2f4c84b1b20e3ef64a02932ed657da490834ecac7e4 (from https://pypi.org/simple/dlib/), version: 19.20.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/a4/7b/2f7f29f460629a8143b2deea1911e2fb1d9d88d29bf645ba321461588e88/dlib-19.21.0.tar.gz#sha256=e79d8e14171b8446d6b5434d7dc3b44a23ca05c8f99266acaf731cc7b268edb6 (from https://pypi.org/simple/dlib/), version: 19.21.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/99/2c/ef681c1c717ace11040f9e99fe22dafc843cdd6085eb6120e7ab2a5c662b/dlib-19.21.1.tar.gz#sha256=6c461e1e9e03d35a569163a41500381806a449bb34a06f18700bd7658aed8c8d (from https://pypi.org/simple/dlib/), version: 19.21.1
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/11/93/ec41d6ef7e769977aa08e49441c52276da27859f12dcbf1c6deb96ce5e9f/dlib-19.22.0.tar.gz#sha256=b5f5fe43ad19a821903aad786381e5b51a9d219527148fd604e719b398e84108 (from https://pypi.org/simple/dlib/), version: 19.22.0
+2021-11-12T18:31:45,554   Found link https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c (from https://pypi.org/simple/dlib/), version: 19.22.1
+2021-11-12T18:31:45,554 Skipping link: not a file: https://pypi.org/simple/dlib/
+2021-11-12T18:31:45,554 Given no hashes to check 29 links for project 'dlib': discarding no candidates
+2021-11-12T18:31:45,554 Collecting dlib
+2021-11-12T18:31:45,564   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-unpack-4frgw13a
+2021-11-12T18:31:45,614   Using cached dlib-19.22.1.tar.gz (7.4 MB)
+2021-11-12T18:31:47,915   Added dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c to build tracker 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-f136tsjp'
+2021-11-12T18:31:47,915     Running setup.py (path:C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\setup.py) egg_info for package dlib
+2021-11-12T18:31:47,915     Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy
+2021-11-12T18:31:47,915     Running command python setup.py egg_info
+2021-11-12T18:31:48,345     running egg_info
+2021-11-12T18:31:48,345     creating C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy\dlib.egg-info
+2021-11-12T18:31:48,345     writing C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy\dlib.egg-info\PKG-INFO
+2021-11-12T18:31:48,355     writing dependency_links to C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy\dlib.egg-info\dependency_links.txt
+2021-11-12T18:31:48,355     writing top-level names to C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy\dlib.egg-info\top_level.txt
+2021-11-12T18:31:48,355     writing manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy\dlib.egg-info\SOURCES.txt'
+2021-11-12T18:31:48,405     package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-12T18:31:48,405     reading manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy\dlib.egg-info\SOURCES.txt'
+2021-11-12T18:31:48,405     reading manifest template 'MANIFEST.in'
+2021-11-12T18:31:49,039     no previously-included directories found matching 'tools\python\build*'
+2021-11-12T18:31:49,051     no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+2021-11-12T18:31:49,071     no previously-included directories found matching 'dlib\test'
+2021-11-12T18:31:49,090     warning: no previously-included files matching '*.pyc' found anywhere in distribution
+2021-11-12T18:31:49,245     writing manifest file 'C:\Users\ilia\AppData\Local\Temp\pip-pip-egg-info-03lfihqy\dlib.egg-info\SOURCES.txt'
+2021-11-12T18:31:49,283   Source in c:\users\ilia\appdata\local\temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507 has version 19.22.1, which satisfies requirement dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c
+2021-11-12T18:31:49,283   Removed dlib from https://files.pythonhosted.org/packages/f0/a2/ba6163c09fb427990180afd8d625bcecc5555af699c253193c35ffd48c4f/dlib-19.22.1.tar.gz#sha256=77e943b40cc53e377d7fc683552d2337937f1111c46d7753105f594c3958163c from build tracker 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-f136tsjp'
+2021-11-12T18:31:49,283 Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-unpack-izhbmzzd
+2021-11-12T18:31:49,293 Building wheels for collected packages: dlib
+2021-11-12T18:31:49,293   Created temporary directory: C:\Users\ilia\AppData\Local\Temp\pip-wheel-rdaq4jnw
+2021-11-12T18:31:49,293   Destination directory: C:\Users\ilia\AppData\Local\Temp\pip-wheel-rdaq4jnw
+2021-11-12T18:31:49,293   Running command 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-918n5bq6\\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\\setup.py'"'"'; __file__='"'"'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-install-918n5bq6\\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\ilia\AppData\Local\Temp\pip-wheel-rdaq4jnw'
+2021-11-12T18:31:49,743   running bdist_wheel
+2021-11-12T18:31:49,743   running build
+2021-11-12T18:31:49,743   running build_py
+2021-11-12T18:31:49,773   package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+2021-11-12T18:31:49,773   running build_ext
+2021-11-12T18:31:50,063   Building extension for Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]
+2021-11-12T18:31:50,063   Invoking CMake setup: 'cmake C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\lib.win-amd64-3.7 -DPYTHON_EXECUTABLE=C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\lib.win-amd64-3.7 -A x64'
+2021-11-12T18:31:50,103   -- Building for: Visual Studio 15 2017
+2021-11-12T18:31:50,183   -- Selecting Windows SDK version 10.0.17763.0 to target Windows 10.0.18363.
+2021-11-12T18:31:57,344   -- The C compiler identification is MSVC 19.16.27039.0
+2021-11-12T18:31:59,955   -- The CXX compiler identification is MSVC 19.16.27039.0
+2021-11-12T18:32:00,165   -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe
+2021-11-12T18:32:02,962   -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe -- works
+2021-11-12T18:32:03,032   -- Detecting C compiler ABI info
+2021-11-12T18:32:05,311   -- Detecting C compiler ABI info - done
+2021-11-12T18:32:05,332   -- Detecting C compile features
+2021-11-12T18:32:07,721   -- Detecting C compile features - done
+2021-11-12T18:32:07,782   -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe
+2021-11-12T18:32:10,285   -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe -- works
+2021-11-12T18:32:10,295   -- Detecting CXX compiler ABI info
+2021-11-12T18:32:12,706   -- Detecting CXX compiler ABI info - done
+2021-11-12T18:32:12,706   -- Detecting CXX compile features
+2021-11-12T18:32:15,157   -- Detecting CXX compile features - done
+2021-11-12T18:32:15,327   -- Found PythonInterp: C:/Users/ilia/PycharmProjects/FaceQ/venv/Scripts/python.exe (found version "3.7.9")
+2021-11-12T18:32:15,427   -- Found PythonLibs: M:/Python3.7.9/libs/Python37.lib
+2021-11-12T18:32:15,497   -- pybind11 v2.2.4
+2021-11-12T18:32:15,507   -- Using CMake version: 3.14.0-rc2
+2021-11-12T18:32:15,507   -- Compiling dlib version: 19.22.1
+2021-11-12T18:32:43,519   -- AVX instructions can be executed by the host processor.
+2021-11-12T18:32:45,884   -- Looking for sys/types.h
+2021-11-12T18:32:48,242   -- Looking for sys/types.h - found
+2021-11-12T18:32:48,242   -- Looking for stdint.h
+2021-11-12T18:32:50,547   -- Looking for stdint.h - found
+2021-11-12T18:32:50,557   -- Looking for stddef.h
+2021-11-12T18:32:52,868   -- Looking for stddef.h - found
+2021-11-12T18:32:52,868   -- Check size of void*
+2021-11-12T18:32:55,179   -- Check size of void* - done
+2021-11-12T18:32:55,179   -- Enabling AVX instructions
+2021-11-12T18:32:55,369   -- Searching for BLAS and LAPACK
+2021-11-12T18:32:55,369   -- Searching for BLAS and LAPACK
+2021-11-12T18:32:57,596   -- Looking for pthread.h
+2021-11-12T18:32:59,463   -- Looking for pthread.h - not found
+2021-11-12T18:32:59,473   -- Found Threads: TRUE
+2021-11-12T18:32:59,583   CUDA_TOOLKIT_ROOT_DIR not found or specified
+2021-11-12T18:32:59,613   -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (Required is at least version "7.5")
+2021-11-12T18:32:59,623   -- Found CUDA, but CMake was unable to find the cuBLAS libraries that should be part of every basic CUDA install. Your CUDA install is somehow broken or incomplete. Since cuBLAS is required for dlib to use CUDA we won't use CUDA.
+2021-11-12T18:32:59,623   -- DID NOT FIND CUDA
+2021-11-12T18:32:59,623   -- Disabling CUDA support for dlib.  DLIB WILL NOT USE CUDA
+2021-11-12T18:32:59,633   -- C++11 activated.
+2021-11-12T18:32:59,663   -- Configuring done
+2021-11-12T18:32:59,883   -- Generating done
+2021-11-12T18:32:59,923   -- Build files have been written to: C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release
+2021-11-12T18:32:59,933   Invoking CMake build: 'cmake --build . --config Release -- /m'
+2021-11-12T18:33:00,343   Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+2021-11-12T18:33:00,343   (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+2021-11-12T18:33:01,653   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\ZERO_CHECK.vcxproj]
+2021-11-12T18:33:01,803     Checking Build System
+2021-11-12T18:33:01,843     CMake does not need to re-run because C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/CMakeFiles/generate.stamp is up-to-date.
+2021-11-12T18:33:01,843     CMake does not need to re-run because C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/pybind11_build/CMakeFiles/generate.stamp is up-to-date.
+2021-11-12T18:33:01,853     CMake does not need to re-run because C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/dlib_build/CMakeFiles/generate.stamp is up-to-date.
+2021-11-12T18:33:03,639   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:33:03,819     Building Custom Rule C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/dlib/CMakeLists.txt
+2021-11-12T18:33:03,860     CMake does not need to re-run because C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/dlib_build/CMakeFiles/generate.stamp is up-to-date.
+2021-11-12T18:33:04,339     base64_kernel_1.cpp
+2021-11-12T18:33:04,339     bigint_kernel_1.cpp
+2021-11-12T18:33:04,349     bigint_kernel_2.cpp
+2021-11-12T18:33:04,359     bit_stream_kernel_1.cpp
+2021-11-12T18:33:04,359     entropy_decoder_kernel_1.cpp
+2021-11-12T18:33:04,359     entropy_decoder_kernel_2.cpp
+2021-11-12T18:33:04,369     entropy_encoder_kernel_1.cpp
+2021-11-12T18:33:04,379     entropy_encoder_kernel_2.cpp
+2021-11-12T18:33:06,092     md5_kernel_1.cpp
+2021-11-12T18:33:06,174     tokenizer_kernel_1.cpp
+2021-11-12T18:33:06,295     unicode.cpp
+2021-11-12T18:33:06,387     test_for_odr_violations.cpp
+2021-11-12T18:33:06,560     sockets_kernel_1.cpp
+2021-11-12T18:33:07,322     bsp.cpp
+2021-11-12T18:33:08,652     dir_nav_kernel_1.cpp
+2021-11-12T18:33:09,252     dir_nav_kernel_2.cpp
+2021-11-12T18:33:09,535     dir_nav_extensions.cpp
+2021-11-12T18:33:09,657     fonts.cpp
+2021-11-12T18:33:10,188     linker_kernel_1.cpp
+2021-11-12T18:33:10,348     extra_logger_headers.cpp
+2021-11-12T18:33:11,659     logger_kernel_1.cpp
+2021-11-12T18:33:15,433     logger_config_file.cpp
+2021-11-12T18:33:16,316     misc_api_kernel_1.cpp
+2021-11-12T18:33:17,046     misc_api_kernel_2.cpp
+2021-11-12T18:33:17,149     sockets_extensions.cpp
+2021-11-12T18:33:21,031     sockets_kernel_2.cpp
+2021-11-12T18:33:21,141     sockstreambuf.cpp
+2021-11-12T18:33:21,242     sockstreambuf_unbuffered.cpp
+2021-11-12T18:33:21,926     server_kernel.cpp
+2021-11-12T18:33:25,724     server_iostream.cpp
+2021-11-12T18:33:28,805     server_http.cpp
+2021-11-12T18:33:30,431     multithreaded_object_extension.cpp
+2021-11-12T18:33:35,493     threaded_object_extension.cpp
+2021-11-12T18:33:36,523     threads_kernel_1.cpp
+2021-11-12T18:33:37,387     threads_kernel_2.cpp
+2021-11-12T18:33:37,519     threads_kernel_shared.cpp
+2021-11-12T18:33:37,570     thread_pool_extension.cpp
+2021-11-12T18:33:40,842     async.cpp
+2021-11-12T18:33:42,345     timer.cpp
+2021-11-12T18:33:44,082     stack_trace.cpp
+2021-11-12T18:33:44,192     cpu_dlib.cpp
+2021-11-12T18:33:45,788     tensor_tools.cpp
+2021-11-12T18:33:47,952     image_dataset_metadata.cpp
+2021-11-12T18:33:49,273     mnist.cpp
+2021-11-12T18:33:49,507     cifar.cpp
+2021-11-12T18:33:50,979     global_function_search.cpp
+2021-11-12T18:33:55,836     kalman_filter.cpp
+2021-11-12T18:33:56,059     auto.cpp
+2021-11-12T18:34:01,735     widgets.cpp
+2021-11-12T18:34:02,434     drawable.cpp
+2021-11-12T18:34:11,102     canvas_drawing.cpp
+2021-11-12T18:34:13,838     style.cpp
+2021-11-12T18:34:23,057     base_widgets.cpp
+2021-11-12T18:34:32,277     gui_core_kernel_1.cpp
+2021-11-12T18:34:32,915     gui_core_kernel_2.cpp
+2021-11-12T18:34:33,090     png_loader.cpp
+2021-11-12T18:34:37,846     save_png.cpp
+2021-11-12T18:34:41,995     jpeg_loader.cpp
+2021-11-12T18:34:45,085     save_jpeg.cpp
+2021-11-12T18:35:00,415     arm_init.c
+2021-11-12T18:35:00,415     filter_neon_intrinsics.c
+2021-11-12T18:35:00,425     png.c
+2021-11-12T18:35:00,455     pngerror.c
+2021-11-12T18:35:00,465     pngget.c
+2021-11-12T18:35:00,465     pngmem.c
+2021-11-12T18:35:00,465     pngpread.c
+2021-11-12T18:35:00,465     pngread.c
+2021-11-12T18:35:01,736     pngrio.c
+2021-11-12T18:35:01,777     pngrtran.c
+2021-11-12T18:35:01,919     pngrutil.c
+2021-11-12T18:35:01,927     pngset.c
+2021-11-12T18:35:01,967     pngtrans.c
+2021-11-12T18:35:02,335     pngwio.c
+2021-11-12T18:35:02,781     pngwrite.c
+2021-11-12T18:35:03,043     pngwtran.c
+2021-11-12T18:35:04,036     pngwutil.c
+2021-11-12T18:35:04,607     adler32.c
+2021-11-12T18:35:04,656     compress.c
+2021-11-12T18:35:04,790     crc32.c
+2021-11-12T18:35:04,950     deflate.c
+2021-11-12T18:35:05,000     gzclose.c
+2021-11-12T18:35:05,031     gzlib.c
+2021-11-12T18:35:05,193     gzread.c
+2021-11-12T18:35:05,315     gzwrite.c
+2021-11-12T18:35:05,449     infback.c
+2021-11-12T18:35:05,703   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\zlib\gzwrite.c(212): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:05,723     inffast.c
+2021-11-12T18:35:05,723     inflate.c
+2021-11-12T18:35:05,752   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\zlib\gzwrite.c(232): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:05,762   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\zlib\gzread.c(319): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:05,774   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\zlib\gzwrite.c(371): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:05,805   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\zlib\gzread.c(400): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:05,843   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\zlib\gzread.c(472): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:05,896     inftrees.c
+2021-11-12T18:35:05,947     trees.c
+2021-11-12T18:35:06,109     uncompr.c
+2021-11-12T18:35:06,138     zutil.c
+2021-11-12T18:35:06,229     jaricom.c
+2021-11-12T18:35:06,251     jcapimin.c
+2021-11-12T18:35:06,300     jcapistd.c
+2021-11-12T18:35:06,323     jcarith.c
+2021-11-12T18:35:06,657     jccoefct.c
+2021-11-12T18:35:06,668     jccolor.c
+2021-11-12T18:35:06,718     jcdctmgr.c
+2021-11-12T18:35:06,749     jchuff.c
+2021-11-12T18:35:06,800     jcinit.c
+2021-11-12T18:35:07,145     jcmainct.c
+2021-11-12T18:35:07,234     jcmarker.c
+2021-11-12T18:35:07,275     jcmaster.c
+2021-11-12T18:35:07,369     jcomapi.c
+2021-11-12T18:35:07,440     jcparam.c
+2021-11-12T18:35:07,519     jcprepct.c
+2021-11-12T18:35:07,653     jcsample.c
+2021-11-12T18:35:07,988     jdapimin.c
+2021-11-12T18:35:08,008     jdapistd.c
+2021-11-12T18:35:08,037     jdarith.c
+2021-11-12T18:35:08,140     jdatadst.c
+2021-11-12T18:35:08,240     jdatasrc.c
+2021-11-12T18:35:08,293     jdcoefct.c
+2021-11-12T18:35:08,303     jdcolor.c
+2021-11-12T18:35:08,331   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jdatadst.c(185): warning C4267: =: преобразование из "size_t" в "unsigned long"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:08,384     jddctmgr.c
+2021-11-12T18:35:08,394     jdhuff.c
+2021-11-12T18:35:08,402     jdinput.c
+2021-11-12T18:35:08,504     jdmainct.c
+2021-11-12T18:35:08,658     jdmarker.c
+2021-11-12T18:35:08,871     jdmaster.c
+2021-11-12T18:35:08,952     jdmerge.c
+2021-11-12T18:35:08,983     jdpostct.c
+2021-11-12T18:35:09,042     jdsample.c
+2021-11-12T18:35:09,123     jerror.c
+2021-11-12T18:35:09,367     jfdctflt.c
+2021-11-12T18:35:09,471     jfdctfst.c
+2021-11-12T18:35:09,471     jfdctint.c
+2021-11-12T18:35:09,512   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jerror.c(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:09,512     C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note:  см. объявление "sprintf"jidctflt.c
+
+2021-11-12T18:35:09,542     jidctfst.c
+2021-11-12T18:35:09,552   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jerror.c(195): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:09,591     jidctint.c
+2021-11-12T18:35:09,613     C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note:  см. объявление "sprintf"
+2021-11-12T18:35:09,644     jmemmgr.c
+2021-11-12T18:35:09,694     jmemnobs.c
+2021-11-12T18:35:09,966   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jmemmgr.c(307): warning C4267: +=: преобразование из "size_t" в "long"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:10,009     jquant1.c
+2021-11-12T18:35:10,159     jquant2.c
+2021-11-12T18:35:10,222   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jmemmgr.c(367): warning C4267: +=: преобразование из "size_t" в "long"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:10,363     jutils.c
+2021-11-12T18:35:10,708   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jmemmgr.c(977): warning C4267: -=: преобразование из "size_t" в "long"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:10,830   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jmemmgr.c(991): warning C4267: -=: преобразование из "size_t" в "long"; возможна потеря данных [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:11,664   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jmemmgr.c(1107): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:11,981     C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1191): note:  см. объявление "getenv"
+2021-11-12T18:35:12,113   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\external\libjpeg\jmemmgr.c(1110): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\dlib.vcxproj]
+2021-11-12T18:35:12,174     C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note:  см. объявление "sscanf"
+2021-11-12T18:35:14,544     dlib.vcxproj -> C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\dlib_build\Release\dlib19.22.1_release_64bit_msvc1916.lib
+2021-11-12T18:35:14,698   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\_dlib_pybind11.vcxproj]
+2021-11-12T18:35:14,951     Building Custom Rule C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/tools/python/CMakeLists.txt
+2021-11-12T18:35:15,010     CMake does not need to re-run because C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/CMakeFiles/generate.stamp is up-to-date.
+2021-11-12T18:35:15,529     dlib.cpp
+2021-11-12T18:35:15,590     matrix.cpp
+2021-11-12T18:35:15,610     vector.cpp
+2021-11-12T18:35:15,620     svm_c_trainer.cpp
+2021-11-12T18:35:15,630     svm_rank_trainer.cpp
+2021-11-12T18:35:15,630     decision_functions.cpp
+2021-11-12T18:35:15,711     other.cpp
+2021-11-12T18:35:15,770     basic.cpp
+2021-11-12T18:35:50,555     cca.cpp
+2021-11-12T18:36:01,765     sequence_segmenter.cpp
+2021-11-12T18:36:02,456     svm_struct.cpp
+2021-11-12T18:36:51,723     image.cpp
+2021-11-12T18:37:21,693     image2.cpp
+2021-11-12T18:37:23,553     image3.cpp
+2021-11-12T18:37:55,357     image4.cpp
+2021-11-12T18:37:59,143     rectangles.cpp
+2021-11-12T18:38:00,549     object_detection.cpp
+2021-11-12T18:38:34,090     shape_predictor.cpp
+2021-11-12T18:38:42,945     correlation_tracker.cpp
+2021-11-12T18:38:50,444   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\..\dlib/image_transforms/assign_image.h(86): warning C4018: >=: несоответствие типов со знаком и без знака (компилируется исходный файл C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\tools\python\src\image3.cpp) [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\_dlib_pybind11.vcxproj]
+2021-11-12T18:38:50,446     C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\..\dlib/image_transforms/assign_image.h(160): note: выполняется компиляция ссылки на экземпляр шаблон функции "void dlib::impl_assign_image_scaled<out_image_type,src_image_type>(dlib::image_view<out_image_type> &,const src_image_type &,const double)"
+2021-11-12T18:38:50,515             with
+2021-11-12T18:38:50,548             [
+2021-11-12T18:38:50,568                 out_image_type=dlib::numpy_image<int8_t>,
+2021-11-12T18:38:50,588                 src_image_type=dlib::matrix_op<dlib::op_image_to_mat<dlib::numpy_image<uint32_t>,uint32_t>>
+2021-11-12T18:38:50,627             ] (компилируется исходный файл C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\tools\python\src\image3.cpp)
+2021-11-12T18:38:50,659     C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\..\dlib/image_transforms/assign_image.h(177): note: выполняется компиляция ссылки на экземпляр шаблон функции "void dlib::impl_assign_image_scaled<dest_image_type,dlib::matrix_op<dlib::op_image_to_mat<src_image_type,T>>>(dest_image_type &,const dlib::matrix_op<dlib::op_image_to_mat<src_image_type,T>> &,const double)"
+2021-11-12T18:38:50,680             with
+2021-11-12T18:38:50,759             [
+2021-11-12T18:38:50,769                 dest_image_type=dlib::numpy_image<int8_t>,
+2021-11-12T18:38:50,802                 src_image_type=dlib::numpy_image<uint32_t>,
+2021-11-12T18:38:50,842                 T=uint32_t
+2021-11-12T18:38:50,883             ] (компилируется исходный файл C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\tools\python\src\image3.cpp)
+2021-11-12T18:38:50,893     C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\tools\python\src\image3.cpp(27): note: выполняется компиляция ссылки на экземпляр шаблон функции "void dlib::assign_image_scaled<dlib::numpy_image<int8_t>,dlib::numpy_image<uint32_t>>(dest_image_type &,const src_image_type &,const double)"
+2021-11-12T18:38:50,944             with
+2021-11-12T18:38:50,983             [
+2021-11-12T18:38:51,015                 dest_image_type=dlib::numpy_image<int8_t>,
+2021-11-12T18:38:51,056                 src_image_type=dlib::numpy_image<uint32_t>
+2021-11-12T18:38:51,086             ]
+2021-11-12T18:38:51,125     C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\tools\python\src\image3.cpp(435): note: выполняется компиляция ссылки на экземпляр шаблон функции "pybind11::array convert_image_scaled<uint32_t>(const dlib::numpy_image<uint32_t> &,const std::string &,const double)"
+2021-11-12T18:38:51,157   C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\dlib\..\dlib/image_transforms/assign_image.h(87): warning C4018: <=: несоответствие типов со знаком и без знака (компилируется исходный файл C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\tools\python\src\image3.cpp) [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\_dlib_pybind11.vcxproj]
+2021-11-12T18:40:16,366     face_recognition.cpp
+2021-11-12T18:40:27,309     cnn_face_detector.cpp
+2021-11-12T18:41:03,979     global_optimization.cpp
+2021-11-12T18:41:14,079     image_dataset_metadata.cpp
+2021-11-12T18:41:21,148     numpy_returns.cpp
+2021-11-12T18:41:22,900     line.cpp
+2021-11-12T18:41:39,576     gui.cpp
+2021-11-12T18:43:07,305        ╤ючфрхЄё  сшсышюЄхър C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/Release/_dlib_pybind11.lib ш юс·хъЄ C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/Release/_dlib_pybind11.exp
+2021-11-12T18:43:09,303     _dlib_pybind11.vcxproj -> C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\lib.win-amd64-3.7\_dlib_pybind11.cp37-win_amd64.pyd
+2021-11-12T18:43:09,363   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [C:\Users\ilia\AppData\Local\Temp\pip-install-918n5bq6\dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507\build\temp.win-amd64-3.7\Release\ALL_BUILD.vcxproj]
+2021-11-12T18:43:09,443     Building Custom Rule C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/tools/python/CMakeLists.txt
+2021-11-12T18:43:09,493     CMake does not need to re-run because C:/Users/ilia/AppData/Local/Temp/pip-install-918n5bq6/dlib_2ac1cf7dab1a4a9d85fbfa29d4d21507/build/temp.win-amd64-3.7/Release/CMakeFiles/generate.stamp is up-to-date.
+2021-11-12T18:43:09,663   installing to build\bdist.win-amd64\wheel
+2021-11-12T18:43:09,663   running install
+2021-11-12T18:43:09,673   running install_lib
+2021-11-12T18:43:09,713   creating build\bdist.win-amd64
+2021-11-12T18:43:09,713   creating build\bdist.win-amd64\wheel
+2021-11-12T18:43:09,713   creating build\bdist.win-amd64\wheel\dlib
+2021-11-12T18:43:09,723   copying build\lib.win-amd64-3.7\dlib\__init__.py -> build\bdist.win-amd64\wheel\.\dlib
+2021-11-12T18:43:09,723   copying build\lib.win-amd64-3.7\_dlib_pybind11.cp37-win_amd64.pyd -> build\bdist.win-amd64\wheel\.
+2021-11-12T18:43:09,867   running install_egg_info
+2021-11-12T18:43:09,943   running egg_info
+2021-11-12T18:43:09,943   writing tools/python\dlib.egg-info\PKG-INFO
+2021-11-12T18:43:09,943   writing dependency_links to tools/python\dlib.egg-info\dependency_links.txt
+2021-11-12T18:43:09,943   writing top-level names to tools/python\dlib.egg-info\top_level.txt
+2021-11-12T18:43:09,953   reading manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+2021-11-12T18:43:10,143   reading manifest template 'MANIFEST.in'
+2021-11-12T18:43:11,061   no previously-included directories found matching 'tools\python\build*'
+2021-11-12T18:43:11,061   no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+2021-11-12T18:43:11,061   no previously-included directories found matching 'dlib\test'
+2021-11-12T18:43:11,072   warning: no previously-included files matching '*.pyc' found anywhere in distribution
+2021-11-12T18:43:11,234   writing manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+2021-11-12T18:43:11,242   Copying tools/python\dlib.egg-info to build\bdist.win-amd64\wheel\.\dlib-19.22.1-py3.7.egg-info
+2021-11-12T18:43:11,272   running install_scripts
+2021-11-12T18:43:11,462   C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\wheel\bdist_wheel.py:82: RuntimeWarning: Config variable 'Py_DEBUG' is unset, Python ABI tag may be incorrect
+2021-11-12T18:43:11,462     warn=(impl == 'cp')):
+2021-11-12T18:43:11,462   C:\Users\ilia\PycharmProjects\FaceQ\venv\lib\site-packages\wheel\bdist_wheel.py:87: RuntimeWarning: Config variable 'WITH_PYMALLOC' is unset, Python ABI tag may be incorrect
+2021-11-12T18:43:11,462     sys.version_info < (3, 8))) \
+2021-11-12T18:43:11,492   creating build\bdist.win-amd64\wheel\dlib-19.22.1.dist-info\WHEEL
+2021-11-12T18:43:11,492   creating 'C:\Users\ilia\AppData\Local\Temp\pip-wheel-rdaq4jnw\dlib-19.22.1-cp37-cp37m-win_amd64.whl' and adding 'build\bdist.win-amd64\wheel' to it
+2021-11-12T18:43:12,249   adding '_dlib_pybind11.cp37-win_amd64.pyd'
+2021-11-12T18:43:12,289   adding 'dlib/__init__.py'
+2021-11-12T18:43:12,299   adding 'dlib-19.22.1.dist-info/METADATA'
+2021-11-12T18:43:12,299   adding 'dlib-19.22.1.dist-info/WHEEL'
+2021-11-12T18:43:12,299   adding 'dlib-19.22.1.dist-info/top_level.txt'
+2021-11-12T18:43:12,299   adding 'dlib-19.22.1.dist-info/RECORD'
+2021-11-12T18:43:12,299   removing build\bdist.win-amd64\wheel
+2021-11-12T18:43:12,379   Created wheel for dlib: filename=dlib-19.22.1-cp37-cp37m-win_amd64.whl size=3228825 sha256=cc18b1a961003a81c862570bce38473b5de84dd6605cd94591ab9e0d724a4765
+2021-11-12T18:43:12,379   Stored in directory: c:\users\ilia\appdata\local\pip\cache\wheels\10\6f\db\ef0380a66d955f9caa81cff6027fb77c0b556568e0daace292
+2021-11-12T18:43:12,379 Successfully built dlib
+2021-11-12T18:43:12,519 Installing collected packages: dlib
+
+2021-11-12T18:43:12,649 Successfully installed dlib-19.22.1
+2021-11-12T18:43:12,669 WARNING: You are using pip version 21.1.2; however, version 21.3.1 is available.
+2021-11-12T18:43:12,669 You should consider upgrading via the 'C:\Users\ilia\PycharmProjects\FaceQ\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+2021-11-12T18:43:12,669 Removed build tracker: 'C:\\Users\\ilia\\AppData\\Local\\Temp\\pip-req-tracker-f136tsjp'
