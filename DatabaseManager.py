@@ -86,3 +86,17 @@ class DatabaseManager:
         """, (int(min_ticket_number), person_id))
         self.connection.commit()
         return min_ticket_number
+
+    def select_operators(self):
+        self.cursor.execute("""
+        select * from operators
+        """)
+        return self.cursor.fetchall()
+
+    def update_operator_ticket_number(self, operator_id, ticket_number):
+        self.cursor.execute("""
+        update operators
+        set ticket_number = ?
+        where id = ?
+        """, (ticket_number, operator_id))
+        self.connection.commit()

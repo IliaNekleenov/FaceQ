@@ -11,7 +11,7 @@ candidates_frames = []
 database_manager = DatabaseManager()
 
 
-def process_faces(detected_faces, min_frames_count, max_frames_distance, print_tickets, logger):
+def process_faces(detected_faces, min_frames_count, max_frames_distance, print_tickets, enqueue_events, logger):
     logger.info('started processing faces')
     while True:
         frame_number, frame, face_metrics = detected_faces.get(True)  # block until some face was recognized
@@ -26,6 +26,7 @@ def process_faces(detected_faces, min_frames_count, max_frames_distance, print_t
                 added, person_id, ticket_number = enqueue(face_metrics, logger)
                 if added:
                     logger.info(f'added new person to the queue: person_id={person_id}, ticket_number={ticket_number}')
+                    enqueue_events.put(ticket_number)
                     if print_tickets:
                         PrinterManager.print_ticket_number(ticket_number)
                     else:

@@ -12,7 +12,9 @@ def scan_faces(detected_faces: Queue, frames_queue: Queue, logger):
         face_metrics = detect_face(frame)
         end = datetime.datetime.now()
         if face_metrics is not None:
-            logger.debug('{}: detected face from {}. Diff {}s, recognition {}s'.format(datetime.datetime.now(), date, datetime.datetime.now().second - date.second, end.second - start.second))
+            logger.debug('{}: detected face from {}. Diff {}s, recognition {}s'
+                         .format(datetime.datetime.now(), date,
+                                 datetime.datetime.now().second - date.second, end.second - start.second))
             detected_faces.put((frame_number, frame, face_metrics))
 
 
