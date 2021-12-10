@@ -22,7 +22,7 @@ class DatabaseManager:
         self.cursor.execute("""
         create table if not exists operators (
             id integer primary key,
-            host text not null,
+            host text unique not null,
             ticket_number integer)
         """)
         self.cursor.execute("""
@@ -99,4 +99,26 @@ class DatabaseManager:
         set ticket_number = ?
         where id = ?
         """, (ticket_number, operator_id))
+        self.connection.commit()
+
+    def add_operator(self, host):
+        operators_hosts = [row[1] for row in self.select_operators()]
+        if host in operators_hosts:
+            return False
+        self.cursor.execute("""
+        insert into operators (host) values (?)
+        """, (host,))
+        self.connection.commit()
+        return True
+
+    def queue_size(self):
+        self.cursor.execute("""
+        select count(*) from faceq_persons where ticket_number is not null
+        """)
+        return int(self.cursor.fetchone()[0])
+
+    def delete_by_id(self, operator_id):
+        self.cursor.execute("""
+        delete from operators where id = ?
+        """, (operator_id,))
         self.connection.commit()

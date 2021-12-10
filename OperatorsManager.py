@@ -1,15 +1,14 @@
 from multiprocessing import Queue
+from time import sleep
 
 import Logger
 from DatabaseManager import DatabaseManager
 import socket
 
-database_manager = DatabaseManager()
+database_manager = DatabaseManager(drop_if_exists=False)
 
 operators_hosts = {}
-operators_tickets = {}
 sockets: {int: socket.socket} = {}
-waiting_operators = set()
 
 
 def process_operators(enqueue_events: Queue, logger: Logger):
@@ -18,33 +17,41 @@ def process_operators(enqueue_events: Queue, logger: Logger):
         try:
             refresh_operators(logger)
             for operator_id, sock in sockets.items():
-                data = sock.recv(4)
-                if data:
-                    logger.info(f'operator_id={operator_id} is waiting new ticket number')
-                    waiting_operators.add(operator_id)
-                    database_manager.update_operator_ticket_number(operator_id, None)
-                    operators_tickets.pop(operator_id)
-                if operator_id in waiting_operators:
-                    if not enqueue_events.empty():
+                if sock is None:
+                    sockets[operator_id] = create_connection(operators_hosts[operator_id], logger)
+                logger.debug('sending 0')
+                sock.sendall('0'.encode('utf-8'))
+                logger.debug('sent 0, receiving response')
+                data = readline(sock)
+                logger.debug(f'received response: {str(data)}')
+                if data and data[0] == '1':
+                    if enqueue_events.empty():
+                        logger.debug('queue is empty')
+                        sock.sendall('10000'.encode('utf-8'))
+                    else:
                         ticket_number = enqueue_events.get()
                         logger.info(f'set ticket_number={ticket_number} to operator_id={operator_id}')
-                        sock.sendall(ticket_number)
+                        sock.sendall(str(ticket_number).encode('utf-8'))
                         database_manager.update_operator_ticket_number(operator_id, ticket_number)
-                        waiting_operators.remove(operator_id)
         except Exception as e:
-            logger.error(f'exception while processing operators: {e}')
+            logger.error(f'exception while processing operators: {str(e)}')
+        logger.debug(f'qqqqqqqqqqqqqq \n{operators_hosts}\n{sockets}')
+        sleep(5)
 
 
 def refresh_operators(logger: Logger):
+    logger.debug('refreshing operators')
     operators = database_manager.select_operators()
+    logger.debug(f'operators: {operators}')
     for operator_id, operator_host, ticket_number in operators:
-        operators_tickets[operator_id] = ticket_number
-        if operators_hosts[operator_id] != operator_host:
+        logger.debug(f'operator id: {operator_id}')
+        if operators_hosts.get(operator_id) != operator_host:
+            logger.debug(f'new host: {operator_host}')
             operators_hosts[operator_id] = operator_host
-            if sockets[operator_id] is not None:
+            if sockets.get(operator_id) is not None:
                 try:
                     sockets[operator_id].close()
-                except:
+                except Exception:
                     pass
             sockets[operator_id] = create_connection(operator_host, logger)
 
@@ -52,10 +59,18 @@ def refresh_operators(logger: Logger):
 def create_connection(host, logger: Logger):
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.connect((host, 5000))
-        sock.settimeout(0.001)
+        sock.connect((host, 80))
+        sock.settimeout(10)
+
         logger.info(f'connected to operator: {host}')
         return sock
     except Exception:
         logger.error(f'could not connect to operator: {host}')
         return None
+
+
+def readline(sock: socket):
+    result = ""
+    while not result.endswith('\n'):
+        result += sock.recv(1).decode('utf-8')
+    return result
