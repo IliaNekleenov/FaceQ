@@ -82,7 +82,6 @@ def add_operator():
 @app.route('/delete-operator')
 def delete_operator():
     operator_id = request.args.get('id')
-    print(f'deleting operator: {operator_id}')
     database_manager.delete_by_id(operator_id)
     return operators()
 

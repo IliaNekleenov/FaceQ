@@ -38,7 +38,6 @@ def process_faces(detected_faces, min_frames_count, max_frames_distance, print_t
             candidates.append(face_metrics)
             candidates_frames.append([frame_number])
         clear_old_candidates_frames(max_frames_distance)
-        print(candidates_frames)
         if not print_tickets:
             cv2.cv2.waitKey(1)
 

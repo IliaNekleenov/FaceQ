@@ -35,8 +35,7 @@ def process_operators(enqueue_events: Queue, logger: Logger):
                         database_manager.update_operator_ticket_number(operator_id, ticket_number)
         except Exception as e:
             logger.error(f'exception while processing operators: {str(e)}')
-        logger.debug(f'qqqqqqqqqqqqqq \n{operators_hosts}\n{sockets}')
-        sleep(5)
+        sleep(1)
 
 
 def refresh_operators(logger: Logger):

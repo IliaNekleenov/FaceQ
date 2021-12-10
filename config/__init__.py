@@ -18,7 +18,8 @@ environment_config_classes = {
     'local_debug': 'LocalDebugConfig',
 }
 
-app.config.from_object('config.config.' + environment_config_classes[app.config['ENV']])
+# app.config.from_object('config.config.' + environment_config_classes[app.config['ENV']])
+app.config.from_object('config.config.LocalCameraConfig')
 
 logger = Logger(app.config['DEBUG'])
 
