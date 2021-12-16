@@ -6,6 +6,7 @@ import datetime
 from time import sleep
 
 
+# обработка видеопотока с камеры
 def read_stream_from_camera(src, frames_queue: Queue, max_frames_queue_size, logger):
     camera_reader = CameraReader(src, logger)
     frame_number = np.ulonglong(0)
@@ -17,6 +18,7 @@ def read_stream_from_camera(src, frames_queue: Queue, max_frames_queue_size, log
 
 
 class CameraReader:
+    # подключение к камере
     def __init__(self, src, logger):
         self.logger = logger
         self.logger.info('connecting to camera...')
@@ -30,6 +32,7 @@ class CameraReader:
                 sleep(5)
         self.logger.info('connected to camera successfully')
 
+    # считывание одного кадра
     def read_frame(self):
         ret, frame = self.video_stream.read()
         cv2.cv2.imshow('frame', frame)

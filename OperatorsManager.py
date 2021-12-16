@@ -11,6 +11,7 @@ operators_hosts = {}
 sockets: {int: socket.socket} = {}
 
 
+# обработка подключенных операторов
 def process_operators(enqueue_events: Queue, logger: Logger):
     logger.info('starting processing operators')
     while True:
@@ -43,6 +44,7 @@ def process_operators(enqueue_events: Queue, logger: Logger):
         sleep(4)
 
 
+# синхронизация списка операторов с базой данных
 def refresh_operators(logger: Logger):
     logger.debug('refreshing operators')
     operators = database_manager.select_operators()
@@ -69,6 +71,7 @@ def refresh_operators(logger: Logger):
             sockets[operator_id] = create_connection(operator_host, logger)
 
 
+# создание подключения к новому оператору
 def create_connection(host, logger: Logger):
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

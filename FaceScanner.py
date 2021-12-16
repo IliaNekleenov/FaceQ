@@ -4,6 +4,7 @@ import face_recognition
 import datetime
 
 
+# обработка считанных с камеры кадров
 def scan_faces(detected_faces: Queue, frames_queue: Queue, logger):
     logger.info('started scanning faces')
     while True:
@@ -18,6 +19,7 @@ def scan_faces(detected_faces: Queue, frames_queue: Queue, logger):
             detected_faces.put((frame_number, frame, face_metrics, face_location))
 
 
+# обнаружение лица и расчет метрик, если лицо обнаружено
 def detect_face(frame):
     face_locations = face_recognition.face_locations(frame)
     if len(face_locations) != 1:

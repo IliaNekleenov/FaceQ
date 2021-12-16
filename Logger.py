@@ -1,5 +1,9 @@
 from datetime import datetime
 
+#
+# класс, использующийся для логгирования сообщений разного уровня (debug, info, error)
+#
+
 
 class Logger:
     def __init__(self, debug_enabled):

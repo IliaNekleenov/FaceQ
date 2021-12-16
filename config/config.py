@@ -1,17 +1,21 @@
+#
+# файл с набором разных конфигураций запуска приложения
+#
+
 class Config(object):
     DEBUG = False
 
-    # Video stream properties
+    # Параметры подключения к камере и конфигурация обработки видеопотока с нее
     CAMERA_LINK = 'http://root:1961@192.168.15.100/mjpg/video.mjpg'
     FRAMES_QUEUE_MAX_SIZE = 5
 
-    # Face detection properties
+    # Конфигурация распознавания лица
     FACE_DETECTION_THREADS_COUNT = 5
-    # if at least 'MIN_FRAMES_WITH_FACE' frames out of last 'MAX_TEST_FRAMES' have the same face, the face will be processed
+    # если хотя бы на 'MIN_FRAMES_WITH_FACE' из последних 'MAX_TEST_FRAMES' одно и то же лицо, то оно обрабатывается
     MAX_TEST_FRAMES = 5
     MIN_FRAMES_WITH_FACE = 3
 
-    # Printer config
+    # Конфигурация печати талонов
     PRINT_TICKETS = True
 
 

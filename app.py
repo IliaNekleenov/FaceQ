@@ -9,6 +9,7 @@ class Border(HtmlTagAttribute):
     pass
 
 
+# страница по управлению операторами и мониторингу состояния очереди
 @app.route('/operators')
 def operators():
     html = Html([],
@@ -65,11 +66,7 @@ def operators():
     return html.render()
 
 
-@app.route('/persons')
-def persons():
-    return str(database_manager.select_all())
-
-
+# удаление оператора из бд
 @app.route('/add-operator')
 def add_operator():
     host = request.args.get('host')
@@ -79,17 +76,12 @@ def add_operator():
         return "Repeated host"
 
 
+# добавление оператора в бд
 @app.route('/delete-operator')
 def delete_operator():
     operator_id = request.args.get('id')
     database_manager.delete_by_id(operator_id)
     return operators()
-
-
-@app.route('/next')
-def take_next():
-    ticket_number = database_manager.take_first()
-    return str(ticket_number)
 
 
 if __name__ == '__main__':

@@ -8,6 +8,10 @@ from Logger import Logger
 from OperatorsManager import process_operators
 from QueueManager import process_faces
 
+#
+# начальная инициализация приложения
+#
+
 app = Flask(__name__)
 
 environment_config_classes = {

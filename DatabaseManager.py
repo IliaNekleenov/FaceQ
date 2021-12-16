@@ -1,5 +1,9 @@
 import sqlite3
 
+#
+# класс, осуществляющий все операции, производимые с базой данных
+#
+
 
 class DatabaseManager:
     def __init__(self, database_name='queue.db', drop_if_exists=True):
