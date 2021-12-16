@@ -25,6 +25,11 @@ def process_operators(enqueue_events: Queue, logger: Logger):
                 data = readline(sock)
                 logger.debug(f'received response: {str(data)}')
                 if data and data[0] == '1':
+                    current_ticket_number = database_manager.current_ticket_number(operator_id)
+                    if current_ticket_number is not None:
+                        logger.debug(f'removing current ticket_number={current_ticket_number} for operator_id={operator_id}')
+                        database_manager.delete_from_queue_by_ticket_number(current_ticket_number)
+                        database_manager.update_operator_ticket_number(operator_id, None)
                     if enqueue_events.empty():
                         logger.debug('queue is empty')
                         sock.sendall('10000'.encode('utf-8'))
@@ -35,13 +40,22 @@ def process_operators(enqueue_events: Queue, logger: Logger):
                         database_manager.update_operator_ticket_number(operator_id, ticket_number)
         except Exception as e:
             logger.error(f'exception while processing operators: {str(e)}')
-        sleep(1)
+        sleep(4)
 
 
 def refresh_operators(logger: Logger):
     logger.debug('refreshing operators')
     operators = database_manager.select_operators()
     logger.debug(f'operators: {operators}')
+    for operator_id in list(operators_hosts.keys()):
+        if operator_id not in [op[0] for op in operators]:  # close connection with deleted operator
+            del operators_hosts[operator_id]
+            if sockets.get(operator_id) is not None:
+                try:
+                    sockets[operator_id].close()
+                except Exception:
+                    pass
+                del sockets[operator_id]
     for operator_id, operator_host, ticket_number in operators:
         logger.debug(f'operator id: {operator_id}')
         if operators_hosts.get(operator_id) != operator_host:

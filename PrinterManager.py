@@ -1,4 +1,5 @@
 import os
+from time import sleep
 
 import win32api
 import win32print
@@ -16,6 +17,7 @@ def print_ticket_number(ticket_number: int):
     filename = f'tmp.docx'
     doc.save(filename)
     print_file(filename)
+    # sleep(5)
     # os.remove(filename)
 
 

@@ -11,10 +11,10 @@ candidates_frames = []
 database_manager = DatabaseManager()
 
 
-def process_faces(detected_faces, min_frames_count, max_frames_distance, print_tickets, enqueue_events, logger):
+def process_faces(detected_faces, min_frames_count, max_frames_distance, print_tickets, enqueue_events, logger, debug):
     logger.info('started processing faces')
     while True:
-        frame_number, frame, face_metrics = detected_faces.get(True)  # block until some face was recognized
+        frame_number, frame, face_metrics, (top, right, bottom, left) = detected_faces.get(True)  # block until some face was recognized
         logger.debug('got detected face')
         matches: list = face_recognition.compare_faces(candidates, face_metrics)
         matches_count = matches.count(True)
@@ -29,16 +29,18 @@ def process_faces(detected_faces, min_frames_count, max_frames_distance, print_t
                     enqueue_events.put(ticket_number)
                     if print_tickets:
                         PrinterManager.print_ticket_number(ticket_number)
-                    else:
+                    if debug:
                         bgr_image = cv2.cv2.cvtColor(frame, cv2.cv2.COLOR_RGB2BGR)
-                        cv2.cv2.imshow(str(ticket_number), bgr_image)
+
+                        cv2.cv2.imshow(str(ticket_number),
+                                       cv2.cv2.rectangle(bgr_image, (left, top), (right, bottom), (255, 0, 0), 5))
                 else:
                     logger.debug(f'repeating person was not added: person_id={person_id}, ticket_number={ticket_number}')
         elif matches_count == 0:
             candidates.append(face_metrics)
             candidates_frames.append([frame_number])
         clear_old_candidates_frames(max_frames_distance)
-        if not print_tickets:
+        if debug:
             cv2.cv2.waitKey(1)
 
 

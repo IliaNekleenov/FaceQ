@@ -48,6 +48,8 @@ class DatabaseManager:
             visits_count = visits_count + 1
         where id = ?
         """, (ticket_number, person_id))
+        self.connection.commit()
+        return ticket_number
 
     def enqueue_by_metrics(self, face_metrics_string):
         ticket_number = self.__find_max_ticket_number() + 1
@@ -121,4 +123,21 @@ class DatabaseManager:
         self.cursor.execute("""
         delete from operators where id = ?
         """, (operator_id,))
+        self.connection.commit()
+
+    def current_ticket_number(self, operator_id):
+        self.cursor.execute("""
+        select ticket_number from operators where id = ?
+        """, (operator_id,))
+        ticket_number = self.cursor.fetchone()[0]
+        if ticket_number is None:
+            return None
+        return int(ticket_number)
+
+    def delete_from_queue_by_ticket_number(self, ticket_number):
+        self.cursor.execute("""
+        update faceq_persons
+        set ticket_number = null
+        where ticket_number = ?
+        """, (ticket_number,))
         self.connection.commit()

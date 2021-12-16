@@ -14,12 +14,11 @@ environment_config_classes = {
     'prod': 'ProdConfig',
     'local_prod': 'LocalProdConfig',
 
-    'debug': 'LocalDebugConfig',
+    'debug': 'DebugConfig',
     'local_debug': 'LocalDebugConfig',
 }
 
-# app.config.from_object('config.config.' + environment_config_classes[app.config['ENV']])
-app.config.from_object('config.config.LocalCameraConfig')
+app.config.from_object('config.config.' + environment_config_classes[app.config['ENV']])
 
 logger = Logger(app.config['DEBUG'])
 
@@ -41,7 +40,8 @@ face_processor = Process(target=process_faces,
                                app.config['MAX_TEST_FRAMES'],
                                app.config['PRINT_TICKETS'],
                                enqueue_events,
-                               logger),
+                               logger,
+                               app.config['DEBUG']),
                          daemon=True)
 face_processor.start()
 
