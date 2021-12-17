@@ -7,6 +7,7 @@ from FaceScanner import scan_faces
 from Logger import Logger
 from OperatorsManager import process_operators
 from QueueManager import process_faces
+from StatisticsManager import update_all_diagrams
 
 #
 # начальная инициализация приложения
@@ -60,3 +61,5 @@ operators_processor = Process(target=process_operators,
 operators_processor.start()
 
 database_manager = DatabaseManager()
+
+update_all_diagrams(database_manager, logger)

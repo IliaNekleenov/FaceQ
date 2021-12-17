@@ -3,6 +3,7 @@ import sqlite3
 #
 # класс, осуществляющий все операции, производимые с базой данных
 #
+from datetime import datetime
 
 
 class DatabaseManager:
@@ -20,6 +21,9 @@ class DatabaseManager:
         self.cursor.execute("""
         drop table if exists faceq_persons
         """)
+        self.cursor.execute("""
+        drop table if exists statistics
+        """)
         self.connection.commit()
 
     def create_database(self):
@@ -36,6 +40,28 @@ class DatabaseManager:
             ticket_number integer,
             visits_count integer not null)
         """)
+        self.cursor.execute("""
+        create table if not exists statistics (
+            day integer not null, 
+            hour integer not null,
+            visits_count integer not null,
+            weeks_count integer not null)
+        """)
+        self.connection.commit()
+        self.cursor.execute("""
+        select count(*) from statistics
+        """)
+        rows = self.cursor.fetchone()[0]
+        if rows is not None and int(rows) == 0:
+            self.__init_statistics()
+
+    def __init_statistics(self):
+        for day in range(7):
+            for hour in range(24):
+                self.cursor.execute("""
+                insert into statistics
+                (day, hour, visits_count, weeks_count) values (?, ?, ?, ?)
+                """, (day, hour, 0, 1))
         self.connection.commit()
 
     def select_all(self):
@@ -145,3 +171,18 @@ class DatabaseManager:
         where ticket_number = ?
         """, (ticket_number,))
         self.connection.commit()
+
+    def inc_statistics(self):
+        date = datetime.now()
+        self.cursor.execute("""
+        update statistics
+        set visits_count = visits_count + 1
+        where day = ? and hour = ?
+        """, (date.weekday(), date.hour))
+        self.connection.commit()
+
+    def select_day_statistics(self, day):
+        self.cursor.execute("""
+        select * from statistics where day = ?
+        """, (day,))
+        return self.cursor.fetchall()

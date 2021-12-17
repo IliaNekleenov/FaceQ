@@ -4,6 +4,7 @@ import face_recognition
 import PrinterManager
 import bisect
 
+import StatisticsManager
 from DatabaseManager import DatabaseManager
 
 candidates = []
@@ -28,6 +29,8 @@ def process_faces(detected_faces, min_frames_count, max_frames_distance, print_t
                 added, person_id, ticket_number = enqueue(face_metrics, logger)
                 if added:  # если человек добавлен в очередь
                     logger.info(f'added new person to the queue: person_id={person_id}, ticket_number={ticket_number}')
+                    database_manager.inc_statistics()
+                    StatisticsManager.update_all_diagrams(database_manager, logger)
                     enqueue_events.put(ticket_number)
                     if print_tickets:
                         PrinterManager.print_ticket_number(ticket_number)
